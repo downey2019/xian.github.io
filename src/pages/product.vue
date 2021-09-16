@@ -73,14 +73,16 @@
             height="300"
             fit="fill"
           />
-          <g-image
-            alt="Example image"
-            src="../../static/product_page/advantage1_hover.png"
-            height="300"
-            fit="fill"
-            class="img-hover1"
-            v-show="img1Hover"
-          />
+          <transition name="advantageShow">
+            <g-image
+              alt="Example image"
+              src="../../static/product_page/advantage1_hover.png"
+              height="300"
+              fit="fill"
+              class="img-hover1"
+              v-show="img1Hover"
+            />
+          </transition>
           <div class="line-four-text1">
             <p>为铁路软件开发特点</p>
             <p>量身打造，降低门槛</p>
@@ -97,14 +99,16 @@
             height="300"
             fit="fill"
           />
-          <g-image
-            alt="Example image"
-            src="../../static/product_page/advantage2_hover.png"
-            height="300"
-            fit="fill"
-            class="img-hover2"
-            v-show="img2Hover"
-          />
+          <transition name="advantageShow">
+            <g-image
+              alt="Example image"
+              src="../../static/product_page/advantage2_hover.png"
+              height="300"
+              fit="fill"
+              class="img-hover2"
+              v-show="img2Hover"
+            />
+          </transition>
           <div class="line-four-text2">
             <p>与铁路业务共同持续</p>
             <p>发展，降低成本</p>
@@ -373,5 +377,22 @@ export default {
   letter-spacing: 0px;
   color: #666666;
   margin-bottom: 50px;
+}
+
+.advantageShow-leave-active,
+.advantageShow-enter-active {
+  transition: all 0.3s ease;
+}
+.advantageShow-leave-active {
+  height: 0px !important;
+}
+.advantageShow-leave {
+  height: 0px;
+}
+.advantageShow-enter {
+  height: 0px !important;
+}
+.advantageShow-enter-active {
+  height: 0px;
 }
 </style>

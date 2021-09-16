@@ -1,14 +1,17 @@
 <template>
   <div class="layout">
     <header class="header">
-      <iframe
-        src="../../logo.svg"
-        width="135"
-        height="80"
-        style="border-width: 0px;"
+      <div
+        @click="gotoLogo"
+        style="display:flex;"
       >
-      </iframe>
-      <h2 class="h_title">铁科经纬（西安）信息科技有限公司</h2>
+        <g-image
+          src="/logo.svg"
+          style="width:135px;height:80px"
+        >
+        </g-image>
+        <h2 class="h_title">铁科经纬（西安）信息科技有限公司</h2>
+      </div>
       <nav class="nav">
         <g-link
           class="nav_link"
@@ -68,7 +71,9 @@ export default {
     }
   },
   methods: {
-
+    gotoLogo () {
+      this.$router.push('/logo/')
+    }
   }
 
 };

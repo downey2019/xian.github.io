@@ -188,6 +188,10 @@ export default {
   text-align: center;
 }
 
+/* 去掉百度地图水印 */
+/deep/.anchorBL {
+  display: none !important;
+}
 .map {
   width: 100%;
   height: 490px;

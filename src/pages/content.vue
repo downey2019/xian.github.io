@@ -113,12 +113,12 @@ export default {
 
 <style scoped>
 .line-one {
-  max-height: 700px;
+  /* max-height: 700px; */
 }
 .img-one {
   display: block;
   width: 100%;
-  max-height: 700px;
+  /* max-height: 700px; */
 }
 .line-two {
   font-family: PingFangSC-Medium;
@@ -135,6 +135,10 @@ export default {
 .line-two p {
   margin-top: 50px;
   /* margin-bottom: 50px; */
+}
+.line-two h2 {
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .line-three {

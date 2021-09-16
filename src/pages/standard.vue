@@ -51,7 +51,7 @@
       <h2>开发规范</h2>
       <div class="line-four-title">
         <div class="box"></div>
-        <span>软件开发规范</span>
+        <span class="line-four-titles">软件开发规范</span>
         <div class="box"></div>
       </div>
       <div class="line-four-content">
@@ -65,7 +65,7 @@
             class="box"
             style="background-color: #e4007f;"
           ></div>
-          <span>开发过程与技术管理规范</span>
+          <span class="line-four-titles">开发过程与技术管理规范</span>
           <div
             class="box"
             style="background-color: #e4007f;"
@@ -107,12 +107,12 @@ export default {
 
 <style scoped>
 .line-one {
-  max-height: 700px;
+  /* max-height: 700px; */
 }
 .img-one {
   display: block;
   width: 100%;
-  max-height: 700px;
+  /* max-height: 700px; */
 }
 .line-two {
   font-family: PingFangSC-Medium;
@@ -120,7 +120,7 @@ export default {
   margin-top: 20px;
   padding: 50px;
   margin-bottom: 20px;
-  max-width: 1500px;
+  max-width: 1200px;
 }
 .line-two h2 {
   font-size: 40px;
@@ -159,7 +159,7 @@ export default {
   align-items: center;
 }
 .line-three h2 {
-  font-size: 40px;
+  font-size: 30px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 50px;
@@ -180,6 +180,10 @@ export default {
   margin: 0 auto;
   text-align: center;
   margin-bottom: 50px;
+  font-weight: 500;
+}
+.line-four-titles {
+  font-size: 30px;
   font-weight: 500;
 }
 .line-four-title {
@@ -204,13 +208,14 @@ export default {
 .line-four-content {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
+  width: 1200px;
+  margin: 0 auto;
   margin-top: 30px;
 }
 .line-four-card {
   width: 230px;
   height: 80px;
-  margin: 15px;
+  margin: 10px 30px 10px 30px;
   background-color: #f9f4ff;
   box-shadow: 0px 3px 7px 0px rgba(194, 167, 167, 0.35);
   font-family: PingFangSC-Medium;

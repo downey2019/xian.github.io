@@ -22,7 +22,7 @@
       <h2>培训体系</h2>
       <div class="line-three-title">
         <div class="box"></div>
-        <span>案例演示</span>
+        <span class="line-three-titles">案例演示</span>
         <div class="box"></div>
       </div>
       <g-image
@@ -71,7 +71,7 @@
           class="box"
           style="background-color: #09b765;"
         ></div>
-        <span>专项实操</span>
+        <span class="line-three-titles">专项实操</span>
         <div
           class="box"
           style="background-color: #09b765;"
@@ -191,12 +191,12 @@ export default {
 
 <style scoped>
 .line-one {
-  max-height: 700px;
+  /* max-height: 700px; */
 }
 .img-one {
   display: block;
   width: 100%;
-  max-height: 700px;
+  /* max-height: 700px; */
 }
 .line-two {
   font-family: PingFangSC-Medium;
@@ -205,10 +205,14 @@ export default {
   padding: 50px;
   margin-bottom: 20px;
   width: 90%;
-  max-width: 1500px;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.line-two h2 {
+  font-size: 40px;
+  font-weight: 500;
 }
 .line-two p {
   margin-top: 50px;
@@ -223,7 +227,8 @@ export default {
   margin-bottom: 50px;
 }
 .line-three h2 {
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: 500;
 }
 .line-three-title {
   display: flex;
@@ -237,6 +242,9 @@ export default {
   font-family: PingFangSC-Medium;
   font-size: 30px;
   color: #333333;
+}
+.line-three-titles {
+  font-size: 30px;
 }
 .box {
   width: 12px;
@@ -298,7 +306,7 @@ export default {
   background-color: rgb(249, 244, 255);
   border-radius: 5px;
   color: #333333;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
 }
 .part-content h3 {
   margin: 5px 0 5px 0;
@@ -310,6 +318,8 @@ export default {
 }
 .part-content-big {
   padding: 20px;
-  margin-top: 50px;
+  margin: 0 auto;
+  margin-top: 80px;
+  align-items: center;
 }
 </style>

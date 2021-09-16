@@ -132,6 +132,7 @@
         <el-button
           type="primary"
           class="but"
+          @click="gotoProsuct"
           style="background-color: #e9a400; border:0px; display: block; margin:0 auto; margin-top:20px;margin-bottom:20px;"
         >了解详情</el-button>
         <g-image
@@ -261,18 +262,23 @@
 export default {
   metaInfo: {
     title: '首页'
+  },
+  methods: {
+    gotoProsuct () {
+      this.$router.push('/product/')
+    }
   }
 }
 </script>
 
 <style scoped>
 .line-one {
-  max-height: 700px;
+  /* max-height: 700px; */
 }
 .img-one {
   display: block;
   width: 100%;
-  max-height: 700px;
+  /* max-height: 700px; */
 }
 
 .line-two {
@@ -370,6 +376,7 @@ export default {
 }
 .line-four-center h1 {
   font-size: 36px;
+  font-weight: 400;
 }
 .line-four-center p {
   width: 955px;
@@ -380,10 +387,12 @@ export default {
   height: 600px;
   width: calc(100% - 100px);
   padding: 50px;
+  padding-top: 100px;
   align-items: center;
 }
 .line-five p {
   text-align: center;
+  margin: 0;
   font-size: 30px;
   font-family: PingFangSC-Medium;
   color: #333;
@@ -391,6 +400,7 @@ export default {
 .line-five-imgs {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 .line-five-img {
   width: 300px;
@@ -430,12 +440,14 @@ export default {
 .line-six p {
   text-align: center;
   font-size: 30px;
+  margin: 0;
   font-family: PingFangSC-Medium;
   color: #333;
 }
 .line-six-imgs {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 .line-six-img {
   width: 320px;

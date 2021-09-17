@@ -389,7 +389,7 @@ export default {
   position: absolute;
 }
 .img-hover2 {
-  top: 310px;
+  top: 299px;
   right: calc((100% - 1205px) / 2);
   position: absolute;
 }

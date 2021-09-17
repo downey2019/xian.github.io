@@ -23,8 +23,8 @@
       <el-carousel
         :interval="3000"
         type="card"
-        height="600px"
-        width="80%"
+        height="650px"
+        width="1200px"
       >
         <el-carousel-item>
           <div class="rotation">
@@ -214,7 +214,7 @@
             alt="Example image"
             src="../../static/home_page/case1.png"
             height="170"
-            width="320"
+            width="300"
             class="rotation-img"
             fit="fill"
           />
@@ -225,7 +225,7 @@
             alt="Example image"
             src="../../static/home_page/case2.png"
             height="170"
-            width="320"
+            width="300"
             class="rotation-img"
             fit="fill"
           />
@@ -236,7 +236,7 @@
             alt="Example image"
             src="../../static/home_page/case3.png"
             height="170"
-            width="320"
+            width="300"
             class="rotation-img"
             fit="fill"
           />
@@ -247,7 +247,7 @@
             alt="Example image"
             src="../../static/home_page/case4.png"
             height="170"
-            width="320"
+            width="300"
             class="rotation-img"
             fit="fill"
           />
@@ -304,7 +304,7 @@ export default {
 }
 
 .line-three {
-  width: 80%;
+  width: 1200px;
   height: 650px;
   padding: 50px 0 50px 0;
   padding-left: 10%;
@@ -324,13 +324,13 @@ export default {
 .el-carousel__item:nth-child(2n) {
   background-color: #99a9bf;
   width: 400px;
-  margin-left: 7%;
+  margin-left: 100px;
 }
 
 .el-carousel__item:nth-child(2n + 1) {
   background-color: #d3dce6;
   width: 400px;
-  margin-left: 7%;
+  margin-left: 100px;
 }
 .rotation {
   width: 100%;
@@ -434,7 +434,6 @@ export default {
 }
 .line-six {
   width: 100%;
-  height: 400px;
   align-items: center;
 }
 .line-six p {
@@ -450,9 +449,12 @@ export default {
   margin-top: 50px;
 }
 .line-six-img {
-  width: 320px;
+  width: 300px;
   height: 400px;
   text-align: center;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .line-six-img span {
   font-family: PingFangSC-Medium;

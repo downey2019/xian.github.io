@@ -92,6 +92,7 @@
           class="line-four-img"
           @mouseenter="img2Hover=true"
           @mouseleave="img2Hover=false"
+          style="margin-top:40px;"
         >
           <g-image
             alt="Example image"
@@ -442,7 +443,7 @@ export default {
   position: absolute;
 }
 .img-hover2 {
-  top: 299px;
+  top: 339px;
   right: calc((100% - 1209px) / 2);
   position: absolute;
 }
@@ -452,7 +453,7 @@ export default {
   position: absolute;
 }
 .line-four-text2 {
-  top: 380px;
+  top: 420px;
   left: calc((100% - 1100px) / 2);
   position: absolute;
 }

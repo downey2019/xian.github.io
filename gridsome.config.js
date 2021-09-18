@@ -6,7 +6,8 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: [],
+  siteUrl: 'http://localhost:8080/',
+  pathPrefix: '/study_note',
   plugins: [
     {
       use: "@gridsome/source-filesystem",

@@ -188,13 +188,40 @@
           </template>
           <div class="line-five-content">
             <p>一站式的完备的分布式系统支撑平台， 支持多层安全防护、准入机制、多租户应用支撑， 助企业降低 IT 成本，提升运维效率 </p>
-            <g-image
-              alt="Example image"
-              src="../../static/product_page/container_content.png"
-              width="950"
-              height="550"
-              fit="fill"
-            />
+            <el-carousel
+              indicator-position="outside"
+              height='550px'
+              style="width: 1000px;"
+            >
+              <el-carousel-item>
+                <g-image
+                  alt="Example image"
+                  src="../../static/product_page/container_content.png"
+                  width="1000"
+                  height="550"
+                  fit="fill"
+                />
+              </el-carousel-item>
+              <el-carousel-item>
+                <g-image
+                  alt="Example image"
+                  src="../../static/product_page/container_content1.png"
+                  width="1000"
+                  height="550"
+                  fit="fill"
+                />
+              </el-carousel-item>
+              <el-carousel-item>
+                <g-image
+                  alt="Example image"
+                  src="../../static/product_page/container_content2.png"
+                  width="1000"
+                  height="550"
+                  fit="fill"
+                />
+              </el-carousel-item>
+            </el-carousel>
+
           </div>
         </el-tab-pane>
         <el-tab-pane name="development">
@@ -269,13 +296,39 @@
           </template>
           <div class="line-five-content">
             <p>企业级持续集成和持续交付工具，支持应用架构守护、灰度发布、流程管控等能力，让您的软件简单，快捷，安全，高效的交付</p>
-            <g-image
-              alt="Example image"
-              src="../../static/product_page/pay_content.png"
-              width="950"
-              height="550"
-              fit="fill"
-            />
+            <el-carousel
+              indicator-position="outside"
+              height='550px'
+              style="width: 1000px;"
+            >
+              <el-carousel-item>
+                <g-image
+                  alt="Example image"
+                  src="../../static/product_page/pay_content.png"
+                  width="1000"
+                  height="550"
+                  fit="fill"
+                />
+              </el-carousel-item>
+              <el-carousel-item>
+                <g-image
+                  alt="Example image"
+                  src="../../static/product_page/pay_content1.png"
+                  width="1000"
+                  height="550"
+                  fit="fill"
+                />
+              </el-carousel-item>
+              <el-carousel-item>
+                <g-image
+                  alt="Example image"
+                  src="../../static/product_page/pay_content2.png"
+                  width="1000"
+                  height="550"
+                  fit="fill"
+                />
+              </el-carousel-item>
+            </el-carousel>
           </div>
         </el-tab-pane>
       </el-tabs>
@@ -390,7 +443,7 @@ export default {
 }
 .img-hover2 {
   top: 299px;
-  right: calc((100% - 1205px) / 2);
+  right: calc((100% - 1209px) / 2);
   position: absolute;
 }
 .line-four-text1 {

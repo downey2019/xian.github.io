@@ -5,9 +5,9 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
-  siteUrl: 'http://localhost:8080/',
-  pathPrefix: '/study_note',
+  siteName: '铁科经纬（西安）信息科技有限公司',
+  // siteUrl: 'http://localhost:8080/',
+  pathPrefix: '/xian',
   plugins: [
     {
       use: "@gridsome/source-filesystem",

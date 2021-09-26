@@ -2,7 +2,7 @@
 
   <div class="logoPage">
     <g-image
-      src="/logo1.svg"
+      src="../../static/logo/logo1.svg"
       style="width:619px;height300px"
     >
     </g-image>

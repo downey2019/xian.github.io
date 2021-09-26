@@ -5,11 +5,11 @@
         @click="gotoLogo"
         style="display:flex;"
       >
-        <g-image
-          src="/logo.svg"
+        <img
+          src="../../static/logo/logo.svg"
           style="width:135px;height:80px"
         >
-        </g-image>
+        </img>
         <h2 class="h_title">铁科经纬（西安）信息科技有限公司</h2>
       </div>
       <nav class="nav">

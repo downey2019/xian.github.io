@@ -23,8 +23,8 @@
       <el-carousel
         :interval="3000"
         type="card"
-        height="650px"
-        width="1200px"
+        height="600px"
+        width="1400px"
       >
         <el-carousel-item>
           <div class="rotation">
@@ -33,7 +33,7 @@
               src="../../static/home_page/img1.png"
               class="rotation-img"
               height="300"
-              width="400"
+              width="500"
               fit="fill"
             />
             <div
@@ -51,7 +51,7 @@
               alt="Example image"
               src="../../static/home_page/img2.png"
               height="300"
-              width="400"
+              width="450"
               class="rotation-img"
               fit="fill"
             />
@@ -71,7 +71,7 @@
               src="../../static/home_page/img3.png"
               class="rotation-img"
               height="300"
-              width="400"
+              width="450"
               fit="fill"
             />
             <div
@@ -90,7 +90,7 @@
               src="../../static/home_page/img4.png"
               class="rotation-img"
               height="300"
-              width="400"
+              width="450"
               fit="fill"
             />
             <div
@@ -109,7 +109,7 @@
               src="../../static/home_page/img5.png"
               class="rotation-img"
               height="300"
-              width="400"
+              width="450"
               fit="fill"
             />
             <div
@@ -240,7 +240,7 @@
             class="rotation-img"
             fit="fill"
           />
-          <span>国铁招商平台二期</span>
+          <span>国铁采购平台二期</span>
         </div>
         <div class="line-six-img">
           <g-image
@@ -323,14 +323,14 @@ export default {
 
 .el-carousel__item:nth-child(2n) {
   background-color: #99a9bf;
-  width: 400px;
-  margin-left: 100px;
+  width: 450px;
+  margin-left: 80px;
 }
 
 .el-carousel__item:nth-child(2n + 1) {
   background-color: #d3dce6;
-  width: 400px;
-  margin-left: 100px;
+  width: 450px;
+  margin-left: 80px;
 }
 .rotation {
   width: 100%;

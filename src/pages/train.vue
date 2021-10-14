@@ -97,8 +97,8 @@
             style="margin-top:10px;"
           >
             <h3>Day 5</h3>
-            <p>课程题目：Kubernetes实操环境安装和指令实操</p>
-            <p>课程简介：Kubernetes本地安装、日常处理指令讲解，备份，操作演示和实操指导</p>
+            <p>课程题目：Kubernetes应用 </p>
+            <p>课程简介：Kubernetes Operator介绍，Operator 部署，API调用，演示+同步实操指导</p>
           </div>
         </div>
       </div>
@@ -151,8 +151,8 @@
             style="margin-top:10px;"
           >
             <h3>Day 9</h3>
-            <p>课程题目：基于Element UI组件库的前端开发</p>
-            <p>课程简介：Element UI组件库介绍、引用组件库组件开发，微前端案例展示 </p>
+            <p>课程题目：基于SprintBoot微服务开发与进阶实战（下）</p>
+            <p>课程简介：SprintBoot+中间件的微服务项目实例；ServiceMesh模式介绍、API网关、服务目录、基于Kubernetes的ServiceMesh微服务示例介绍 </p>
           </div>
         </div>
       </div>

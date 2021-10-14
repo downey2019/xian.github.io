@@ -59,6 +59,7 @@
           class="line-four-card"
           v-for="(item,index) in soft_dev_spec"
           :key="index"
+          @click="golink"
         >{{item}}</div>
         <div class="line-four-title">
           <div
@@ -76,6 +77,7 @@
             class="line-four-card"
             v-for="(item,index) in dev_and_tech"
             :key="index"
+            @click="golink"
             style="background-color: #e6f3f9;"
           >{{item}}</div>
         </div>
@@ -101,7 +103,15 @@ export default {
         '前端开发规范', '后端开发规范', '测试', '上线部署规范', '多团队协作规范', '更多...'
       ]
     }
-  }
+  },
+  methods: {
+    golink () {
+      this.$message({
+        message: '正在开发，敬请期待',
+      });
+    }
+  },
+
 }
 </script>
 
@@ -223,5 +233,6 @@ export default {
   line-height: 80px;
   text-align: center;
   color: #333333;
+  cursor: pointer;
 }
 </style>

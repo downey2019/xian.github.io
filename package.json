@@ -11,6 +11,7 @@
     "@gridsome/transformer-remark": "^0.6.4",
     "element-ui": "^2.15.6",
     "gridsome": "^0.7.0",
+    "gridsome-plugin-i18n": "^1.6.0",
     "vue-baidu-map": "^0.21.22"
   },
   "devDependencies": {

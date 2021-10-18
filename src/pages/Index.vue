@@ -14,8 +14,8 @@
       />
       <div class="text-two">
         <div class="two-center">
-          <p>成为铁路行业数字化转型的先锋军</p>
-          <p>云原生技术专家</p>
+          <p>{{$t('page_index.line_two.span1')}}</p>
+          <p>{{$t('page_index.line_two.span2')}}</p>
         </div>
       </div>
     </div>
@@ -40,8 +40,8 @@
               class="rotation-text"
               style="background-color: #2856ff;"
             >
-              <h1>服务为本</h1>
-              <p>为应用软件研发运行服务，采用自服务方式，提供持续的技术赋能和支撑保障服务，平台团队与铁路软件研发团队共同成长。</p>
+              <h1>{{$t('page_index.line_three.h1')}}</h1>
+              <p>{{$t('page_index.line_three.p1')}}</p>
             </div>
           </div>
         </el-carousel-item>
@@ -59,8 +59,8 @@
               class="rotation-text"
               style="background-color: #0e0270;"
             >
-              <h1>立足行业</h1>
-              <p>立足铁路信息技术现状和发展需要，与应用软件开发团队和技术能力共同发展，是自主建设的铁路PaaS平台。</p>
+              <h1>{{$t('page_index.line_three.h2')}}</h1>
+              <p>{{$t('page_index.line_three.p2')}}</p>
             </div>
           </div>
         </el-carousel-item>
@@ -78,8 +78,8 @@
               class="rotation-text"
               style="background-color: #e4007f;"
             >
-              <h1>能力为基</h1>
-              <p>基于PaaS的铁路软件研发，结合铁路应用系统多样性和技术成熟度，建设和运营PaaS，促进能力建设和体系发展。</p>
+              <h1>{{$t('page_index.line_three.h3')}}</h1>
+              <p>{{$t('page_index.line_three.p3')}}</p>
             </div>
           </div>
         </el-carousel-item>
@@ -97,8 +97,8 @@
               class="rotation-text"
               style="background-color: #2856ff;"
             >
-              <h1>应用转化</h1>
-              <p>从成功应用的典型铁路应用软件研发中沉淀，逐步规范、推广到其他铁路应用软件研发中，持续优化完善。</p>
+              <h1>{{$t('page_index.line_three.h4')}}</h1>
+              <p>{{$t('page_index.line_three.p4')}}</p>
             </div>
           </div>
         </el-carousel-item>
@@ -116,8 +116,8 @@
               class="rotation-text"
               style="background-color: #0e0270;"
             >
-              <h1>注重集成</h1>
-              <p>PaaS服务模式为一站式自服务，降低门槛，与软件开发运维能力无缝集成，在源头将PaaS中公共服务能力广泛集成和应用。</p>
+              <h1>{{$t('page_index.line_three.h5')}}</h1>
+              <p>{{$t('page_index.line_three.p5')}}</p>
             </div>
           </div>
         </el-carousel-item>
@@ -126,15 +126,14 @@
     <div class="line-four">
       <div class="line-four-bg"></div>
       <div class="line-four-center">
-        <h1>了解铁路PaaS平台</h1>
-        <p>集铁科院的研发实践、前沿研发理念、先进研发工具为一体的开发测试PaaS云平台面向开发者提供
-          研发工具产品和服务，让软件开发质量有保障，更简单高效</p>
+        <h1></h1>
+        <p></p>
         <el-button
           type="primary"
           class="but"
           @click="gotoProsuct"
           style="background-color: #e9a400; border:0px; display: block; margin:0 auto; margin-top:20px;margin-bottom:20px;"
-        >了解详情</el-button>
+        >{{$t('page_index.line_fore.but')}}</el-button>
         <g-image
           alt="Example image"
           src="../../static/home_page/framework.png"
@@ -144,7 +143,7 @@
     </div>
     <div class="line-five">
       <p style="color:#adadad;">APPLICATION</p>
-      <p>行业应用场景</p>
+      <p>{{$t('page_index.line_five.p1')}}</p>
       <div class="line-five-imgs">
         <div class="line-five-img">
           <g-image
@@ -156,8 +155,8 @@
             fit="fill"
           />
           <div class="line-five-content">
-            <h3>API应用</h3>
-            <p>应用开发人员通过PaaS对API和微服务，进行开发、运行、管理和安全保障。</p>
+            <h3>{{$t('page_index.line_five.h2')}}</h3>
+            <p>{{$t('page_index.line_five.p2')}}</p>
           </div>
 
         </div>
@@ -171,8 +170,8 @@
             fit="fill"
           />
           <div class="line-five-content">
-            <h3>物联网应用</h3>
-            <p>PaaS支撑各类物联网应用运行环境、开发语言、部署和管理工具。</p>
+            <h3>{{$t('page_index.line_five.h3')}}</h3>
+            <p>{{$t('page_index.line_five.p3')}}</p>
           </div>
         </div>
         <div class="line-five-img">
@@ -185,8 +184,8 @@
             fit="fill"
           />
           <div class="line-five-content">
-            <h3>数据分析应用</h3>
-            <p>PaaS为数据分析提供工具和运行环境。</p>
+            <h3>{{$t('page_index.line_five.h4')}}</h3>
+            <p>{{$t('page_index.line_five.p4')}}</p>
           </div>
         </div>
         <div class="line-five-img">
@@ -199,15 +198,15 @@
             fit="fill"
           />
           <div class="line-five-content">
-            <h3>移动互联网应用</h3>
-            <p>PaaS提供移动应用前、后端开发框架、运行环境和APP分发管理工具等。</p>
+            <h3>{{$t('page_index.line_five.h5')}}</h3>
+            <p>{{$t('page_index.line_five.p5')}}</p>
           </div>
         </div>
       </div>
     </div>
     <div class="line-six">
       <p style="color:#adadad;">PROJECT CASE</p>
-      <p>项目案例</p>
+      <p>{{$t('page_index.line_six.p1')}}</p>
       <div class="line-six-imgs">
         <div class="line-six-img">
           <g-image
@@ -218,7 +217,7 @@
             class="rotation-img"
             fit="fill"
           />
-          <span>川藏铁路技术创新协作平台</span>
+          <span>{{$t('page_index.line_six.sp1')}}</span>
         </div>
         <div class="line-six-img">
           <g-image
@@ -229,7 +228,7 @@
             class="rotation-img"
             fit="fill"
           />
-          <span>财务信息系统自助服务平台</span>
+          <span>{{$t('page_index.line_six.sp2')}}</span>
         </div>
         <div class="line-six-img">
           <g-image
@@ -240,7 +239,7 @@
             class="rotation-img"
             fit="fill"
           />
-          <span>国铁采购平台二期</span>
+          <span>{{$t('page_index.line_six.sp3')}}</span>
         </div>
         <div class="line-six-img">
           <g-image
@@ -251,7 +250,7 @@
             class="rotation-img"
             fit="fill"
           />
-          <span>网络安全和信息化管理信息系统</span>
+          <span>{{$t('page_index.line_six.sp4')}}</span>
         </div>
       </div>
     </div>

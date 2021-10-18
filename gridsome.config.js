@@ -15,6 +15,20 @@ module.exports = {
         path: "blog/*.md",
         typeName: "Post",
       }
+    },
+    {
+      use: "gridsome-plugin-i18n",
+      options: {
+        locales: [ // locales list
+          'english',
+          'chinese',
+        ],
+        messages: {
+        },
+        fallbackLocale: 'chinese', // fallback language
+        defaultLocale: 'chinese', // default language
+        enablePathRewrite: true
+      }
     }
   ]
 }

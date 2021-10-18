@@ -11,7 +11,9 @@ import 'element-ui/lib/theme-chalk/index.css';
 // })
 
 Vue.use(ElementUI);
-export default function (Vue, { router, head, isClient }) {
+export default function (Vue, { router, head, isClient, appOptions }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+  appOptions.i18n.setLocaleMessage('english', require('./assets/lang/en'))
+  appOptions.i18n.setLocaleMessage('chinese', require('./assets/lang/zh'))
 }

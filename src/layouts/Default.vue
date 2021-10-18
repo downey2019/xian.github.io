@@ -3,36 +3,39 @@
     <header class="header">
       <div
         @click="gotoLogo"
-        style="display:flex;"
+        style="display:flex; align-items: center;"
       >
         <img
           src="../../static/logo/logo.svg"
           style="width:135px;height:80px"
         >
         </img>
-        <h2 class="h_title">铁科经纬（西安）信息科技有限公司</h2>
+        <h2
+          class="h_title"
+          style="width:400px"
+        >{{ $t('menu.title')}}</h2>
       </div>
       <nav class="nav">
         <g-link
           class="nav_link"
-          to="/"
+          :to="$tp('/')"
           :style="$props.pageIndex == 1?'color: #f9bb00': 'color:#fff'"
-        >首页</g-link>
+        >{{ $t('menu.home1')}}</g-link>
         <g-link
           class="nav_link"
-          to="/product/"
+          :to="$tp('/product/')"
           :style="$props.pageIndex == 2?'color: #f9bb00': 'color:#fff'"
-        >产品</g-link>
+        >{{ $t('menu.home2')}}</g-link>
         <g-link
           class="nav_link"
-          to="/standard/"
+          :to="$tp('/standard/')"
           :style="$props.pageIndex == 3?'color: #f9bb00': 'color:#fff'"
-        >规范</g-link>
+        >{{ $t('menu.home3')}}</g-link>
         <g-link
           class="nav_link"
-          to="/train/"
+          :to="$tp('/train/')"
           :style="$props.pageIndex == 4?'color: #f9bb00': 'color:#fff'"
-        >培训</g-link>
+        >{{ $t('menu.home4')}}</g-link>
       </nav>
       <span
         type="primary"
@@ -42,9 +45,22 @@
       >
         <g-link
           class="nav_link_but"
-          to="/content/"
-        >联系我们</g-link>
+          :to="$tp('/content/')"
+          style="font-size: 18px;"
+        >{{ $t('menu.home5')}}</g-link>
       </span>
+      <el-dropdown @command="changeLan">
+        <span
+          class="el-dropdown-link"
+          style="margin-left:40px;"
+        >
+          {{ $t('menu.home6')}}<i class="el-icon-arrow-down el-icon--right"></i>
+        </span>
+        <el-dropdown-menu slot="dropdown">
+          <el-dropdown-item command="chinese">中文</el-dropdown-item>
+          <el-dropdown-item command="english">English</el-dropdown-item>
+        </el-dropdown-menu>
+      </el-dropdown>
     </header>
     <slot />
     <footer class="footer">
@@ -73,6 +89,9 @@ export default {
   methods: {
     gotoLogo () {
       this.$router.push('/logo/')
+    },
+    changeLan (language) {
+      this.$i18n.locale = language
     }
   }
 
@@ -100,7 +119,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  /* height: 80px; */
   background-color: rgb(66, 22, 127);
 }
 
@@ -111,8 +130,8 @@ body {
 }
 
 .nav {
-  margin-left: 100px;
-  margin-right: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .nav_link,
@@ -124,11 +143,13 @@ body {
   font-size: 22px;
   text-decoration: none;
 }
+.nav_link_but {
+  margin-right: 20px;
+}
 .nav_link:hover {
   color: #f9bb00 !important;
 }
 .but {
-  width: 130px;
   height: 40px;
   line-height: 40px;
   border-radius: 5px;
@@ -147,5 +168,12 @@ body {
   line-height: 24px;
   font-family: PingFangSC-Regular;
   font-size: 14px;
+}
+.el-dropdown-link {
+  cursor: pointer;
+  color: #ffffff;
+}
+.el-icon-arrow-down {
+  font-size: 12px;
 }
 </style>

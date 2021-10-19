@@ -404,7 +404,7 @@ export default {
 .line-three-img {
   margin: 7.5px;
   width: 390px;
-  height: 450px;
+  /* height: 450px; */
   background-color: rgb(185, 33, 33);
   color: #fff;
   font-family: PingFangSC-Regular;
@@ -446,10 +446,10 @@ export default {
   position: absolute;
 }
 .line-four-text1 {
-  top: 0px;
-  right: calc((100% - 1100px) / 2);
-  height: 300px;
-  width: 280px;
+  top: 20px;
+  right: calc((100% - 1120px) / 2);
+  height: 280px;
+  width: 300px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -458,10 +458,10 @@ export default {
 }
 .line-four-text2 {
   top: 350px;
-  left: calc((100% - 1100px) / 2);
+  left: calc((100% - 1140px) / 2);
   position: absolute;
-  height: 300px;
-  width: 280px;
+  height: 280px;
+  width: 300px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;

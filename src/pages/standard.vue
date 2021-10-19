@@ -8,39 +8,38 @@
       />
     </div>
     <div class="line-two">
-      <h2>规范的意义</h2>
-      <p>缺少研发技术和过程规范将导致软件研发的4大问题</p>
+      <h2>{{$t('page_standard.line_two.h')}}</h2>
+      <p>{{$t('page_standard.line_two.p')}}</p>
       <div class="line-two-problems">
         <div
           class="line-two-problem"
           style="background-color: #503aff;"
         >
-          <span>成本高</span>
+          <span>{{$t('page_standard.line_two.sp1')}}</span>
         </div>
         <div
           class="line-two-problem"
           style="background-color: #e4007f;"
         >
-          <span>质量低</span>
+          <span>{{$t('page_standard.line_two.sp2')}}</span>
         </div>
         <div
           class="line-two-problem"
           style="background-color: #0e0270;"
         >
-          <span>交付慢</span>
+          <span>{{$t('page_standard.line_two.sp3')}}</span>
         </div>
         <div
           class="line-two-problem"
           style="background-color: #dea406;"
         >
-          <span>共享难</span>
+          <span>{{$t('page_standard.line_two.sp4')}}</span>
         </div>
       </div>
-      <p>软件系统是由多个彼此关联的部分组成，需要适应业务的变化而快速变化，需要分工协作复杂的研发过程构建。
-        简单明确、可执行性强的规范，明确技术选型、工作标准和操作流程，打造标准化的研发工作模式，让团队可快速高效的执行，是软件系统研发质量和效率的有力保障。</p>
+      <p>{{$t('page_standard.line_two.p1')}}</p>
     </div>
     <div class="line-three">
-      <h2>铁路规范体系</h2>
+      <h2>{{$t('page_standard.line_three.h')}}</h2>
       <g-image
         alt="Example image"
         src="../../static/standard_page/standard.png"
@@ -48,16 +47,16 @@
       />
     </div>
     <div class="line-four">
-      <h2>开发规范</h2>
+      <h2>{{$t('page_standard.line_four.h')}}</h2>
       <div class="line-four-title">
         <div class="box"></div>
-        <span class="line-four-titles">软件开发规范</span>
+        <span class="line-four-titles">{{$t('page_standard.line_four.sp1')}}</span>
         <div class="box"></div>
       </div>
       <div class="line-four-content">
         <div
           class="line-four-card"
-          v-for="(item,index) in soft_dev_spec"
+          v-for="(item,index) in $t('page_standard.soft_dev_spec')"
           :key="index"
           @click="golink"
         >{{item}}</div>
@@ -66,7 +65,7 @@
             class="box"
             style="background-color: #e4007f;"
           ></div>
-          <span class="line-four-titles">开发过程与技术管理规范</span>
+          <span class="line-four-titles">{{$t('page_standard.line_four.sp2')}}</span>
           <div
             class="box"
             style="background-color: #e4007f;"
@@ -75,7 +74,7 @@
         <div class="line-four-content">
           <div
             class="line-four-card"
-            v-for="(item,index) in dev_and_tech"
+            v-for="(item,index) in $t('page_standard.dev_and_tech')"
             :key="index"
             @click="golink"
             style="background-color: #e6f3f9;"
@@ -230,9 +229,11 @@ export default {
   box-shadow: 0px 3px 7px 0px rgba(194, 167, 167, 0.35);
   font-family: PingFangSC-Medium;
   font-size: 24px;
-  line-height: 80px;
   text-align: center;
   color: #333333;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>

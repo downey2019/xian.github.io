@@ -264,7 +264,7 @@ export default {
   },
   methods: {
     gotoProsuct () {
-      this.$router.push('/product/')
+      this.$router.push(this.$tp('/product/'))
     }
   }
 }

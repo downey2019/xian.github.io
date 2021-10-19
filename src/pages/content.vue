@@ -8,14 +8,9 @@
       />
     </div>
     <div class="line-two">
-      <h2>公司介绍</h2>
+      <h2>{{$t('page_content.line_two.h')}}</h2>
       <p>
-        铁科经纬（西安）信息技术有限公司成立于2020年，地址位于陕西省西安市碑林区太乙路铁永坊20
-        号楼3层，所属行业为软件和信息技术服务业，经营范围包含：一般项目：网络技术服务；信息系统集成服务；人工智能公共数据平台；
-        人工智能基础资源与技术平台；人工智能公共服务平台技术咨询服务；
-        大数据服务；软件开发；人工 智能基础软件开发；人工智能应用软件开发；
-        智能税务系统开发；软件外包服务；智能控制系统集成；
-        技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广。
+        {{$t('page_content.line_two.p')}}
       </p>
     </div>
     <div class="line-three">
@@ -26,7 +21,7 @@
             src="../../static/content_page/address.svg"
             class="line-three-svg"
           />
-          <p>西安市碑林区太乙路铁永坊20 号楼3层</p>
+          <p> {{$t('page_content.line_three.p1')}}</p>
         </div>
         <div class="line-three-email">
           <g-image
@@ -34,7 +29,7 @@
             src="../../static/content_page/email.svg"
             class="line-three-svg"
           />
-          <p>qi.yang@rails.cn</p>
+          <p> {{$t('page_content.line_three.p2')}}</p>
         </div>
         <div class="line-three-time">
           <g-image
@@ -42,7 +37,7 @@
             src="../../static/content_page/time.svg"
             class="line-three-svg"
           />
-          <p>工作时间：8:00-18:00</p>
+          <p> {{$t('page_content.line_three.p3')}}</p>
         </div>
       </div>
       <div class="line-three-right">
@@ -91,20 +86,20 @@ export default {
   name: "Emap",
   components: { BaiduMap, BmMarker, BmInfoWindow },
   metaInfo: { title: "联系我们" },
-  data() {
+  data () {
     return {
       markerPoint: { lng: 108.97901002246088, lat: 34.244734377113936 },
       show: false,
     };
   },
-  mounted() {
+  mounted () {
     //this.baiduMap()
   },
   methods: {
-    infoWindowClose() {
+    infoWindowClose () {
       this.show = false;
     },
-    infoWindowOpen() {
+    infoWindowOpen () {
       this.show = true;
     },
   },

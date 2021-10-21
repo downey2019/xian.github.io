@@ -142,7 +142,7 @@
       </div>
     </div>
     <div class="line-five">
-      <p style="color:#adadad;">APPLICATION</p>
+      <p style="color:#adadad;">APPLICATIONS</p>
       <p>{{$t('page_index.line_five.p1')}}</p>
       <div class="line-five-imgs">
         <div class="line-five-img">
@@ -150,7 +150,7 @@
             alt="Example image"
             src="../../static/home_page/application1.png"
             height="400"
-            width="300"
+            width="280"
             class="rotation-img"
             fit="fill"
           />
@@ -165,7 +165,7 @@
             alt="Example image"
             src="../../static/home_page/application2.png"
             height="400"
-            width="300"
+            width="280"
             class="rotation-img"
             fit="fill"
           />
@@ -179,7 +179,7 @@
             alt="Example image"
             src="../../static/home_page/application3.png"
             height="400"
-            width="300"
+            width="280"
             class="rotation-img"
             fit="fill"
           />
@@ -193,7 +193,7 @@
             alt="Example image"
             src="../../static/home_page/application4.png"
             height="400"
-            width="300"
+            width="280"
             class="rotation-img"
             fit="fill"
           />
@@ -205,7 +205,7 @@
       </div>
     </div>
     <div class="line-six">
-      <p style="color:#adadad;">PROJECT CASE</p>
+      <p style="color:#adadad;">PROJECT CASES</p>
       <p>{{$t('page_index.line_six.p1')}}</p>
       <div class="line-six-imgs">
         <div class="line-six-img">
@@ -213,7 +213,7 @@
             alt="Example image"
             src="../../static/home_page/case1.png"
             height="170"
-            width="300"
+            width="280"
             class="rotation-img"
             fit="fill"
           />
@@ -224,7 +224,7 @@
             alt="Example image"
             src="../../static/home_page/case2.png"
             height="170"
-            width="300"
+            width="280"
             class="rotation-img"
             fit="fill"
           />
@@ -235,7 +235,7 @@
             alt="Example image"
             src="../../static/home_page/case3.png"
             height="170"
-            width="300"
+            width="280"
             class="rotation-img"
             fit="fill"
           />
@@ -246,7 +246,7 @@
             alt="Example image"
             src="../../static/home_page/case4.png"
             height="170"
-            width="300"
+            width="280"
             class="rotation-img"
             fit="fill"
           />
@@ -306,8 +306,8 @@ export default {
   width: 1200px;
   height: 650px;
   padding: 50px 0 50px 0;
-  padding-left: 10%;
-  padding-right: 10%;
+  /* padding-left: 10%;
+  padding-right: 10%; */
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -402,7 +402,7 @@ export default {
   margin-top: 50px;
 }
 .line-five-img {
-  width: 300px;
+  width: 280px;
   height: 400px;
   background-color: #000000;
   /* opacity: 0.6; */
@@ -410,9 +410,10 @@ export default {
   position: relative;
 }
 .line-five-content {
-  top: 100px;
-  width: 300px;
-  height: 300px;
+  top: 80px;
+  margin: 0 auto;
+  width: 280px;
+  /* height: 300px; */
   position: absolute;
   bottom: 0px;
 }

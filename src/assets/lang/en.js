@@ -32,19 +32,19 @@ module.exports = {
     },
     line_five: {
       p1: 'Industry application scenarios',
-      h2: 'API application',
+      h2: 'API applications',
       p2: 'Application developers use PaaS to develop, operate, manage and secure APIs and microservices.',
       h3: 'IoT applications',
       p3: 'PaaS supports various IoT application operating environments, development languages, deployment and management tools.',
-      h4: 'Data analysis application',
+      h4: 'Data analysis applications',
       p4: 'PaaS provides tools and operating environment for data analysis.',
-      h5: 'Mobile Internet application',
+      h5: 'Mobile Internet applications',
       p5: 'PaaS provides mobile application front-end and back-end development framework, operating environment and APP distribution management tools.'
     },
     line_six: {
       p1: 'Project cases',
       sp1: 'Sichuan-Tibet Railway Technology Innovation Cooperation Platform',
-      sp2: 'Financial information system self-service platform',
+      sp2: 'Financial Information System Self-service Platform',
       sp3: 'China Railway Procurement Platform Phase II',
       sp4: 'Network Security and Information Management Information System'
     }
@@ -71,13 +71,13 @@ module.exports = {
     },
     line_five: {
       sp: 'Product Matrix',
-      sp1: 'Project collaboration platform',
+      sp1: 'Project Collaboration',
       p1: 'Provides functions such as work item collaboration, iteration tracking, workflow, and statistical reports to help R&D teams deliver products faster and better. Use team collaboration and project management tools to efficiently coordinate production and improve delivery efficiency.',
-      sp2: 'Container Orchestration Platform',
+      sp2: 'Container Orchestration',
       p2: 'A one-stop complete distributed system support platform that supports multi-layer security protection, access mechanism, and multi-tenant application support, helping companies reduce IT costs and improve operation and maintenance efficiency ',
-      sp3: 'Developer platform',
+      sp3: 'Developer Portal',
       p3: 'A one-stop development platform for developers to realize technology sharing and framework reuse within the enterprise, to achieve development specifications, quick start and efficient delivery, and help enterprises to quickly develop and deliver distributed application systems',
-      sp4: 'Continuous delivery platform',
+      sp4: 'Continuous Delivery',
       p4: 'Enterprise-level continuous integration and continuous delivery tools, supporting application architecture guarding, gray release, process control and other capabilities, making your software simple, fast, safe and efficient delivery'
     }
   },
@@ -93,21 +93,21 @@ module.exports = {
       p1: 'The software system is composed of multiple interrelated parts, which need to adapt to business changes and change rapidly, and require division of labor and cooperation to build a complex R&D process. Simple, clear and enforceable specifications, clear technical selection, work standards and operating procedures, and create a standardized R&D work model, so that the team can execute quickly and efficiently, are a powerful guarantee for the quality and efficiency of software system development.'
     },
     line_three: {
-      h: 'Railway Regulation System'
+      h: 'China Railway Information System Engineering Standards'
     },
     line_four: {
       h: 'Development specification',
-      sp1: 'Software development specification',
-      sp2: 'Development process and technical management specifications'
+      sp1: 'Software Development Standards',
+      sp2: 'Development Process and Technology Management Standards'
     },
     soft_dev_spec: [
-      'API naming', 'Module naming', 'Communication', 'Responsive layout',
-      'Stateless Service', 'Authentication', 'Service label specification', 'Redis usage',
-      'Monitoring data', 'Automated test', 'UI test specification', 'Mysql backup',
-      'Code warehouse management', 'Blue-green deployment', 'Monitoring and alarm specifications', 'More...'
+      'API Naming', 'Module Naming', 'Communication', 'Responsive Layout',
+      'Stateless Service', 'Authentication', 'Service Label', 'Redis Usage',
+      'Monitoring Data', 'Automated test', 'UI Test specification', 'Mysql Backup',
+      'Code Warehouse Management', 'Blue-Green Deployment', 'Monitoring and Alarm', 'More...'
     ],
     dev_and_tech: [
-      'Front-end specifications', 'Back-end specifications', 'test', 'Online deployment', 'Multi-team collaboration', 'More...'
+      'Front-end ', 'Back-end ', 'Test', 'Online Deployment', 'Multi-team Collaboration', 'More...'
     ]
   },
 
@@ -117,57 +117,55 @@ module.exports = {
       p: 'The training course adopts the trinity method of theory + case + practical operation, and the in-depth and simple language training is based on the full-stack application research and development engineer of Kubernetes. The content of the course keeps up with the development of the times, continuously iteratively updated, covering the application of popular technology frameworks, focusing on cases and practical operations, incorporating a large number of true project training, from demand analysis to project development to project testing, students can participate in the details of each process , To help students learn, understand and learn thoroughly.'
     },
     line_three: {
-      h: 'education system',
-      sp: 'Case presentation',
+      h: 'Course outline',
+      sp: 'WEEK 1',
 
       h1: 'Day 1',
       p1: 'Course title:',
-      p2: 'Introduction to Cloud Native; Getting Started with Cloud Native Application Development (Part 1); Practical case explanation',
+      p2: ' Project management and cloud native architecture design ',
       p3: 'Course introduction:',
-      p4: 'What is cloud native, cloud native open source: microservices, containerization, CI/CD; basic environment construction (Docker, VMware, Git); run through the environment with a case',
+      p4: '1.How to track and manage the process from requirement decomposition, task assignment to development, testing, and release, as well as an overall introduction and demonstration of how each role collaborates to promote the achievement of project goals. ',
+      p5: '2.The basic components of the cloud native architecture and the introduction of related middleware functions allow students to have a comprehensive understanding of application system design. ',
 
-      h2: 'Day 2',
-      p5: 'Course title:',
-      p6: 'Getting started with cloud native application development (medium); Introduction to Docker and Docker Compose',
-      p7: 'Course introduction:',
-      p8: 'Installation, command and use of git, code writing, code structure, etc.; introduction of Docker and Docker Compose',
+      h2: 'Day 2~3',
+      p6: 'Course title:',
+      p7: ' Cloud native service development ',
+      p8: 'Course introduction:',
+      p9: '1.Introduction to the development of microservices based on Sprintboot. ',
+      p10: '2.Introduction to key core middleware, authentication and authorization, file system MIO, database, interface design, developer portal (microservice platform), etc. ',
+      p11: '3. Demonstrate how to use the platform to develop through cases',
 
-      h3: 'Day 3',
-      p9: 'Course title:',
-      p10: 'Getting Started Cloud Native Application Development (Part 2)',
-      p11: 'Course introduction:',
-      p12: 'Image packaging, Dockerfile writing; assembly line deployment and installation, ArgoCD deployment, and assembly line demonstration',
+      h3: 'Day 4~5',
+      p12: 'Course title:',
+      p13: 'Front-end development ',
+      p14: 'Course introduction:',
+      p15: '1. A practical example of the front-end development framework VUE. ',
+      p16: '2. Front-end template development, ElementUI componentized development method, jam stack static release, rapid front-end development, front-end testing, etc. ',
 
-      sp1: 'Special practice',
+      sp1: 'WEEK 2',
 
-      til1: 'Container platform practice',
-      h4: 'Day 4',
-      p13: 'Course title: Kubernetes practical operation environment installation and instruction practical operation',
-      p14: 'Course introduction: Kubernetes local installation, daily processing instruction explanation, backup, operation demonstration and practical guidance',
-      h5: 'Day 5',
-      p15: 'Course title: Kubernetes application',
-      p16: 'Course introduction: Introduction to Kubernetes Operator, Operator deployment, API call, demonstration + synchronization practical operation guidance',
+      h4: 'Day 1~2',
+      p17: 'Course title:',
+      p18: 'Continuous integration/continuous deployment ',
+      p19: 'Course introduction:',
+      p20: '1.Commonly used build scripts, continuous testing, automatic deployment of gitops dependent components, etc. ',
+      p21: '2.Continuous delivery platform, and related dependent components Jerkins, cypress, etc.',
 
-      til2: 'Front-end development practice',
-      h6: 'Day 6',
-      p17: 'Course title: VUE-based front-end development',
-      p18: 'Course introduction: introduction and configuration of front-end framework VUE, code logic realization and running demonstration',
-      h7: 'Day 7',
-      p19: 'Course title: Front-end development based on Element UI component library',
-      p20: 'Course introduction: Element UI component library introduction, reference component library component development, micro front-end case display',
 
-      til3: 'Back-end microservice practice',
-      h8: 'Day 8',
-      p21: 'Course title: SprintBoot-based microservice development and advanced actual combat (on)',
-      p22: 'Course description: Introduction to microservice architecture, framework construction, middleware technology introduction; SprintBoot+ middleware',
-      h9: 'Day 9',
-      p23: 'Course title: SprintBoot-based microservice development and advanced actual combat (part 2)',
-      p24: 'Course introduction: SprintBoot+ middleware microservice project example; ServiceMesh mode introduction, API gateway, service catalog, Kubernetes-based ServiceMesh microservice example introduction',
+      h5: 'Day 3~4',
+      p22: 'Course title:',
+      p23: 'Kubernetes container platform ',
+      p24: 'Course introduction:',
+      p25: '1. Kubernetes planning, installation and deployment, operation and maintenance, and application monitoring key indicator extraction methods are introduced. ',
+      p26: '2. Introduction to the use of tools such as prometheus collection data + fluentd log + graphana graphical display hatched by CNCF Cloud Native Foundation.',
 
-      til4: 'Agile development topics',
-      h10: 'Day 10',
-      p25: 'Course Title: Agile Development-Project Management; Agile Development-Automated Testing',
-      p26: 'Course description: Introduction to the use of project collaboration platform iteration management, demand tracking, task allocation and defect management; interface testing, stress testing and UI testing'
+      h6: 'Day 5',
+      p27: 'Course title:',
+      p28: 'Railway application system support platform',
+      p29: 'Course introduction:',
+      p30: '1.Introduction to the unified authentication platform, data service platform, and case explanations of how to wear the security platform. ',
+      p31: '2.Two-week course series summarizing exams and issuing certificates.',
+
     }
   },
 

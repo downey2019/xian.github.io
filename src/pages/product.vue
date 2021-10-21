@@ -383,7 +383,7 @@ export default {
 .line-two p {
   font-size: 24px;
   line-height: 36px;
-  width: 1200px;
+  width: 1100px;
   padding: 50px;
   margin: 0 auto;
 }
@@ -425,7 +425,7 @@ export default {
 }
 .line-four-imgs {
   height: 600px;
-  width: 1300px;
+  width: 1200px;
   margin: 0 auto;
   margin-top: 50px;
   position: relative;

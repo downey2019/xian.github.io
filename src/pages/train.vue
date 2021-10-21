@@ -25,46 +25,71 @@
         <span class="line-three-titles">{{$t('page_train.line_three.sp')}}</span>
         <div class="box"></div>
       </div>
-      <g-image
-        alt="Example image"
-        src="../../static/train_page/train.png"
-        width="1200"
-        height="440"
-        fit="fill"
-      />
-      <div class="line-three-contents">
-        <div
-          class="line-three-content"
-          style="background-color: #2856ff;"
-        >
-          <h3>{{$t('page_train.line_three.h1')}}</h3>
-          <p>{{$t('page_train.line_three.p1')}}</p>
-          <p>{{$t('page_train.line_three.p2')}}</p>
-          <p>{{$t('page_train.line_three.p3')}}</p>
-          <p>{{$t('page_train.line_three.p4')}}</p>
+      <div class="part-contents">
+        <g-image
+          alt="Example image"
+          src="../../static/train_page/train.png"
+          width="660"
+          height="320"
+          fit="fill"
+        />
+        <div class="part-content">
+          <div class="part-content-big">
+            <h3>{{$t('page_train.line_three.h1')}}</h3>
+            <p>{{$t('page_train.line_three.p1')}}</p>
+            <p>{{$t('page_train.line_three.p2')}}</p>
+            <p> &nbsp;</p>
+            <p>{{$t('page_train.line_three.p3')}}</p>
+            <p>{{$t('page_train.line_three.p4')}}</p>
+            <p>{{$t('page_train.line_three.p5')}}</p>
+          </div>
         </div>
-        <div
-          class="line-three-content"
-          style="background-color: #0e0270;"
-        >
-          <h3>{{$t('page_train.line_three.h2')}}</h3>
-          <p>{{$t('page_train.line_three.p5')}}</p>
-          <p>{{$t('page_train.line_three.p6')}}</p>
-          <p>{{$t('page_train.line_three.p7')}}</p>
-          <p>{{$t('page_train.line_three.p8')}}</p>
-        </div>
-        <div
-          class="line-three-content"
-          style="background-color: #e4007f;"
-        >
-          <h3>{{$t('page_train.line_three.h3')}}</h3>
-          <p>{{$t('page_train.line_three.p9')}}</p>
-          <p>{{$t('page_train.line_three.p10')}}</p>
-          <p>{{$t('page_train.line_three.p11')}}</p>
-          <p>{{$t('page_train.line_three.p12')}}</p>
-        </div>
-
       </div>
+      <div class="part-contents">
+        <g-image
+          alt="Example image"
+          src="../../static/train_page/container.png"
+          width="660"
+          height="320"
+          fit="fill"
+        />
+        <div
+          class="part-content"
+          style="background-color: rgb(230,243,249);"
+        >
+          <div class="part-content-big">
+            <h3>{{$t('page_train.line_three.h2')}}</h3>
+            <p>{{$t('page_train.line_three.p6')}}</p>
+            <p>{{$t('page_train.line_three.p7')}}</p>
+            <p> &nbsp;</p>
+            <p>{{$t('page_train.line_three.p8')}}</p>
+            <p>{{$t('page_train.line_three.p9')}}</p>
+            <p>{{$t('page_train.line_three.p10')}}</p>
+            <p>{{$t('page_train.line_three.p11')}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="part-contents">
+        <g-image
+          alt="Example image"
+          src="../../static/train_page/back_end.png"
+          width="660"
+          height="320"
+          fit="fill"
+        />
+        <div class="part-content">
+          <div class="part-content-big">
+            <h3>{{$t('page_train.line_three.h3')}}</h3>
+            <p>{{$t('page_train.line_three.p12')}}</p>
+            <p>{{$t('page_train.line_three.p13')}}</p>
+            <p> &nbsp;</p>
+            <p>{{$t('page_train.line_three.p14')}}</p>
+            <p>{{$t('page_train.line_three.p15')}}</p>
+            <p>{{$t('page_train.line_three.p16')}}</p>
+          </div>
+        </div>
+      </div>
+
       <div class="line-three-title">
         <div
           class="box"
@@ -76,90 +101,12 @@
           style="background-color: #09b765;"
         ></div>
       </div>
-      <div class="part-title">{{$t('page_train.line_three.til1')}}</div>
-      <div class="part-contents">
-        <g-image
-          alt="Example image"
-          src="../../static/train_page/container.png"
-          width="700"
-          height="320"
-          fit="fill"
-        />
-        <div class="part-content">
-          <div class="part-content-one">
-            <h3>{{$t('page_train.line_three.h4')}}</h3>
-            <p>{{$t('page_train.line_three.p13')}}</p>
-            <p>{{$t('page_train.line_three.p14')}}</p>
-          </div>
-          <div
-            class="part-content-one"
-            style="margin-top:10px;"
-          >
-            <h3>{{$t('page_train.line_three.h5')}}</h3>
-            <p>{{$t('page_train.line_three.p15')}}</p>
-            <p>{{$t('page_train.line_three.p16')}}</p>
-          </div>
-        </div>
-      </div>
-      <div class="part-title">{{$t('page_train.line_three.til2')}}</div>
+
       <div class="part-contents">
         <g-image
           alt="Example image"
           src="../../static/train_page/font_end.png"
-          width="700"
-          height="320"
-          fit="fill"
-        />
-        <div class="part-content">
-          <div
-            class="part-content-one"
-            style="background-color: rgb(230,243,249);"
-          >
-            <h3>{{$t('page_train.line_three.h6')}}</h3>
-            <p>{{$t('page_train.line_three.p17')}}</p>
-            <p>{{$t('page_train.line_three.p18')}}</p>
-          </div>
-          <div
-            class="part-content-one"
-            style="margin-top:10px; background-color: rgb(230,243,249)"
-          >
-            <h3>{{$t('page_train.line_three.h7')}}</h3>
-            <p>{{$t('page_train.line_three.p19')}}</p>
-            <p>{{$t('page_train.line_three.p20')}}</p>
-          </div>
-        </div>
-      </div>
-      <div class="part-title">{{$t('page_train.line_three.til3')}}</div>
-      <div class="part-contents">
-        <g-image
-          alt="Example image"
-          src="../../static/train_page/back_end.png"
-          width="700"
-          height="320"
-          fit="fill"
-        />
-        <div class="part-content">
-          <div class="part-content-one">
-            <h3>{{$t('page_train.line_three.h8')}}</h3>
-            <p>{{$t('page_train.line_three.p21')}}</p>
-            <p>{{$t('page_train.line_three.p22')}}</p>
-          </div>
-          <div
-            class="part-content-one"
-            style="margin-top:10px;"
-          >
-            <h3>{{$t('page_train.line_three.h9')}}</h3>
-            <p>{{$t('page_train.line_three.p23')}}</p>
-            <p>{{$t('page_train.line_three.p24')}}</p>
-          </div>
-        </div>
-      </div>
-      <div class="part-title">{{$t('page_train.line_three.til4')}}</div>
-      <div class="part-contents">
-        <g-image
-          alt="Example image"
-          src="../../static/train_page/agile.png"
-          width="700"
+          width="660"
           height="320"
           fit="fill"
         />
@@ -168,9 +115,58 @@
           style="background-color: rgb(230,243,249);"
         >
           <div class="part-content-big">
-            <h3>{{$t('page_train.line_three.h10')}}</h3>
+            <h3>{{$t('page_train.line_three.h4')}}</h3>
+            <p>{{$t('page_train.line_three.p17')}}</p>
+            <p>{{$t('page_train.line_three.p18')}}</p>
+            <p> &nbsp;</p>
+            <p>{{$t('page_train.line_three.p19')}}</p>
+            <p>{{$t('page_train.line_three.p20')}}</p>
+            <p>{{$t('page_train.line_three.p21')}}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="part-contents">
+        <g-image
+          alt="Example image"
+          src="../../static/train_page/day34.png"
+          width="660"
+          height="320"
+          fit="fill"
+        />
+        <div class="part-content">
+          <div class="part-content-big">
+            <h3>{{$t('page_train.line_three.h5')}}</h3>
+            <p>{{$t('page_train.line_three.p22')}}</p>
+            <p>{{$t('page_train.line_three.p23')}}</p>
+            <p> &nbsp;</p>
+            <p>{{$t('page_train.line_three.p24')}}</p>
             <p>{{$t('page_train.line_three.p25')}}</p>
             <p>{{$t('page_train.line_three.p26')}}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="part-contents">
+        <g-image
+          alt="Example image"
+          src="../../static/train_page/agile.png"
+          width="660"
+          height="320"
+          fit="fill"
+        />
+        <div
+          class="part-content"
+          style="background-color: rgb(230,243,249);"
+        >
+          <div class="part-content-big">
+            <h3>{{$t('page_train.line_three.h6')}}</h3>
+            <p>{{$t('page_train.line_three.p27')}}</p>
+            <p>{{$t('page_train.line_three.p28')}}</p>
+            <p> &nbsp;</p>
+            <p>{{$t('page_train.line_three.p29')}}</p>
+            <p>{{$t('page_train.line_three.p30')}}</p>
+            <p>{{$t('page_train.line_three.p31')}}</p>
           </div>
         </div>
       </div>
@@ -252,7 +248,7 @@ export default {
 }
 .line-three-contents {
   width: 1200px;
-  /* height: 250px; */
+  height: 320px;
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -286,15 +282,17 @@ export default {
 }
 .part-contents {
   width: 1200px;
-  height: 400px;
+  /* height: 320px; */
+  margin-top: 40px;
   display: flex;
   justify-content: space-around;
 }
 .part-content {
-  width: 480px;
-  height: 400px;
+  width: 520px;
+  /* height: 320px; */
   display: flex;
   flex-direction: column;
+  background-color: rgb(249, 244, 255);
 }
 .part-content-one {
   width: 460px;
@@ -316,7 +314,7 @@ export default {
 .part-content-big {
   padding: 20px;
   margin: 0 auto;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   align-items: center;
 }
 </style>

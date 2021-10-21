@@ -182,7 +182,7 @@ export default {
   padding: 50px;
   margin-bottom: 20px;
   max-width: 1600px;
-  min-width: 1225px;
+  min-width: 1100px;
 }
 .line-four h2 {
   font-size: 40px;
@@ -217,7 +217,7 @@ export default {
 .line-four-content {
   display: flex;
   flex-wrap: wrap;
-  width: 1200px;
+  width: 1180px;
   margin: 0 auto;
   margin-top: 30px;
 }

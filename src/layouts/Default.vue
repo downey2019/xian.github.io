@@ -41,7 +41,7 @@
         type="primary"
         class="but"
         :style="$props.pageIndex == 5?'background-color:#f8b551':'background-color: rgb(0, 0, 255)'"
-        style="border:0px;"
+        style="border:0px; "
       >
         <g-link
           class="nav_link_but"
@@ -49,11 +49,11 @@
           style="font-size: 18px;"
         >{{ $t('menu.home5')}}</g-link>
       </span>
-      <el-dropdown @command="changeLan">
-        <span
-          class="el-dropdown-link"
-          style="margin-left:40px;"
-        >
+      <el-dropdown
+        @command="changeLan"
+        style="width: 110px;"
+      >
+        <span class="el-dropdown-link">
           {{ $t('menu.home6')}}<i class="el-icon-arrow-down el-icon--right"></i>
         </span>
         <el-dropdown-menu slot="dropdown">
@@ -117,7 +117,7 @@ body {
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   /* height: 80px; */
   background-color: rgb(66, 22, 127);
@@ -130,21 +130,22 @@ body {
 }
 
 .nav {
-  margin-left: 20px;
-  margin-right: 20px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 auto; */
 }
 
 .nav_link,
 .nav_link_but {
-  margin-left: 20px;
-  margin-right: 20px;
+  /* margin-left: 15px;
+  margin-right: 15px; */
   color: #fff;
   font-family: PingFangSC-Medium;
   font-size: 22px;
   text-decoration: none;
-}
-.nav_link_but {
-  margin-right: 20px;
 }
 .nav_link:hover {
   color: #f9bb00 !important;
@@ -152,8 +153,10 @@ body {
 .but {
   height: 40px;
   line-height: 40px;
-  border-radius: 5px;
+  border-radius: 2px;
   font-size: 22px;
+  text-align: center;
+  padding: 0 5px 0 5px;
 }
 .but:hover {
   background-color: #f8b551 !important;

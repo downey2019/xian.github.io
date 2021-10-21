@@ -122,7 +122,7 @@ module.exports = {
 
       h1: 'Day 1',
       p1: 'Course title:',
-      p2: ' Project management and cloud native architecture design ',
+      p2: 'Project management and cloud native architecture design Agile Project management and cloud native architecture design',
       p3: 'Course introduction:',
       p4: '1.How to track and manage the process from requirement decomposition, task assignment to development, testing, and release, as well as an overall introduction and demonstration of how each role collaborates to promote the achievement of project goals. ',
       p5: '2.The basic components of the cloud native architecture and the introduction of related middleware functions allow students to have a comprehensive understanding of application system design. ',
@@ -146,7 +146,7 @@ module.exports = {
 
       h4: 'Day 1~2',
       p17: 'Course title:',
-      p18: 'Continuous integration/continuous deployment ',
+      p18: 'Continuous Integration/Continuous Deployment ',
       p19: 'Course introduction:',
       p20: '1.Commonly used build scripts, continuous testing, automatic deployment of gitops dependent components, etc. ',
       p21: '2.Continuous delivery platform, and related dependent components Jerkins, cypress, etc.',
@@ -161,7 +161,7 @@ module.exports = {
 
       h6: 'Day 5',
       p27: 'Course title:',
-      p28: 'Railway application system support platform',
+      p28: 'Railway Common Information Integration Platform',
       p29: 'Course introduction:',
       p30: '1.Introduction to the unified authentication platform, data service platform, and case explanations of how to wear the security platform. ',
       p31: '2.Two-week course series summarizing exams and issuing certificates.',

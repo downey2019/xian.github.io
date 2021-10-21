@@ -1,3 +1,10 @@
+/*
+ * @Author: zf 
+ * @Date: 2021-10-21 16:36:18 
+ * @Last Modified by:   zf 
+ * @Last Modified time: 2021-10-21 16:36:18 
+ * 培训页面
+ */
 <template>
   <Layout :pageIndex=4>
     <div class="line-one">

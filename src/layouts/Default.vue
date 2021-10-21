@@ -1,3 +1,10 @@
+/*
+ * @Author: zf 
+ * @Date: 2021-10-21 16:34:54 
+ * @Last Modified by: zf
+ * @Last Modified time: 2021-10-21 16:35:27
+ * 导航栏
+ */
 <template>
   <div class="layout">
     <header class="header">
@@ -156,7 +163,7 @@ body {
   border-radius: 2px;
   font-size: 22px;
   text-align: center;
-  padding: 0 5px 0 5px;
+  padding: 0 10px 0 10px;
 }
 .but:hover {
   background-color: #f8b551 !important;

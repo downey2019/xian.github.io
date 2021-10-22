@@ -20,13 +20,13 @@ module.exports = {
       use: "gridsome-plugin-i18n",
       options: {
         locales: [ // locales list
-          'english',
-          'chinese',
+          'en-us',
+          'zh-cn',
         ],
         messages: {
         },
-        fallbackLocale: 'chinese', // fallback language
-        defaultLocale: 'chinese', // default language
+        fallbackLocale: 'zh-cn', // fallback language
+        defaultLocale: 'zh-cn', // default language
         enablePathRewrite: true
       }
     }

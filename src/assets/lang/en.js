@@ -18,14 +18,14 @@ module.exports = {
     line_three: {
       h1: 'Service-oriented',
       p1: 'For application software R&D and operation services, self-service methods are adopted to provide continuous technical empowerment and support guarantee services, and the platform team and the railway software R&D team grow together.',
-      h2: 'Based on the industry',
-      p2: 'Based on the status quo and development needs of railway information technology, together with the development of application software development teams and technical capabilities, it is an independent railway PaaS platform.',
-      h3: 'Ability-based',
-      p3: 'PaaS-based railway software research and development, combined with the diversity of railway application systems and technological maturity, build and operate PaaS, and promote capacity building and system development.',
-      h4: 'Application conversion',
-      p4: 'From the research and development of successfully applied typical railway application software, gradually standardize and promote it to the research and development of other railway application software, and continue to optimize and improve.',
-      h5: 'Focus on integration',
-      p5: 'The PaaS service model is a one-stop self-service, lowering the threshold, seamlessly integrating with software development and operation and maintenance capabilities, and extensively integrating and applying public service capabilities in PaaS at the source.'
+      h2: 'Ability-based',
+      p2: 'PaaS-based railway software research and development, combined with the diversity of railway application systems and technological maturity, build and operate PaaS, and promote capacity building and system development.',
+      h3: 'Application conversion',
+      p3: 'From the research and development of successfully applied typical railway application software, gradually standardize and promote it to the research and development of other railway application software, and continue to optimize and improve.',
+      h4: 'Focus on integration',
+      p4: 'The PaaS service model is a one-stop self-service, lowering the threshold, seamlessly integrating with software development and operation and maintenance capabilities, and extensively integrating and applying public service capabilities in PaaS at the source.',
+      h5: 'Based on the industry',
+      p5: 'Based on the status quo and development needs of railway information technology, together with the development of application software development teams and technical capabilities, it is an independent railway PaaS platform.',
     },
     line_fore: {
       but: 'Learn more'
@@ -86,7 +86,7 @@ module.exports = {
     line_two: {
       h: 'Normative meaning',
       p: 'Lack of R&D technology and process specifications will lead to 4 major problems in software R&D',
-      sp1: 'high cost',
+      sp1: 'High cost',
       sp2: 'Low quality',
       sp3: 'Slow delivery',
       sp4: 'Difficult to',

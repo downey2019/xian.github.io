@@ -2,7 +2,7 @@
  * @Author: zf 
  * @Date: 2021-10-21 16:34:54 
  * @Last Modified by: zf
- * @Last Modified time: 2021-10-21 16:35:27
+ * @Last Modified time: 2021-10-22 09:43:14
  * 导航栏
  */
 <template>
@@ -64,8 +64,8 @@
           {{ $t('menu.home6')}}<i class="el-icon-arrow-down el-icon--right"></i>
         </span>
         <el-dropdown-menu slot="dropdown">
-          <el-dropdown-item command="chinese">中文</el-dropdown-item>
-          <el-dropdown-item command="english">English</el-dropdown-item>
+          <el-dropdown-item command="zh-cn">中文</el-dropdown-item>
+          <el-dropdown-item command="en-us">English</el-dropdown-item>
         </el-dropdown-menu>
       </el-dropdown>
     </header>

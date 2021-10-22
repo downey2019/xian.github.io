@@ -1,8 +1,8 @@
 /*
  * @Author: zf 
  * @Date: 2021-10-21 16:35:40 
- * @Last Modified by:   zf 
- * @Last Modified time: 2021-10-21 16:35:40 
+ * @Last Modified by: zf
+ * @Last Modified time: 2021-10-22 10:16:34
  * 首页
  */
 <template>
@@ -40,93 +40,103 @@
               src="../../static/home_page/img1.png"
               class="rotation-img"
               height="300"
-              width="500"
+              width="360"
               fit="fill"
+              style="margin-left:25px;"
             />
             <div
               class="rotation-text"
               style="background-color: #2856ff;"
             >
-              <h1>{{$t('page_index.line_three.h1')}}</h1>
+              <h1 v-show="$i18n.locale =='zh-cn'">{{$t('page_index.line_three.h1')}}</h1>
+              <b v-show="$i18n.locale == 'en-us'">{{$t('page_index.line_three.h1')}}</b>
               <p>{{$t('page_index.line_three.p1')}}</p>
             </div>
           </div>
         </el-carousel-item>
         <el-carousel-item>
-          <div class="medium">
-            <g-image
-              alt="Example image"
-              src="../../static/home_page/img2.png"
-              height="300"
-              width="450"
-              class="rotation-img"
-              fit="fill"
-            />
-            <div
-              class="rotation-text"
-              style="background-color: #0e0270;"
-            >
-              <h1>{{$t('page_index.line_three.h2')}}</h1>
-              <p>{{$t('page_index.line_three.p2')}}</p>
-            </div>
+
+          <g-image
+            alt="Example image"
+            src="../../static/home_page/img2.png"
+            height="300"
+            width="360"
+            class="rotation-img"
+            fit="fill"
+            style="margin-left:25px;"
+          />
+          <div
+            class="rotation-text"
+            style="background-color: #0e0270;"
+          >
+            <h1 v-show="$i18n.locale =='zh-cn'">{{$t('page_index.line_three.h2')}}</h1>
+            <b v-show="$i18n.locale == 'en-us'">{{$t('page_index.line_three.h2')}}</b>
+            <p>{{$t('page_index.line_three.p2')}}</p>
           </div>
+
         </el-carousel-item>
         <el-carousel-item>
-          <div class="medium">
-            <g-image
-              alt="Example image"
-              src="../../static/home_page/img3.png"
-              class="rotation-img"
-              height="300"
-              width="450"
-              fit="fill"
-            />
-            <div
-              class="rotation-text"
-              style="background-color: #e4007f;"
-            >
-              <h1>{{$t('page_index.line_three.h3')}}</h1>
-              <p>{{$t('page_index.line_three.p3')}}</p>
-            </div>
+
+          <g-image
+            alt="Example image"
+            src="../../static/home_page/img3.png"
+            class="rotation-img"
+            height="300"
+            width="360"
+            fit="fill"
+            style="margin-left:25px;"
+          />
+          <div
+            class="rotation-text"
+            style="background-color: #e4007f;"
+          >
+            <h1 v-show="$i18n.locale =='zh-cn'">{{$t('page_index.line_three.h3')}}</h1>
+            <b v-show="$i18n.locale == 'en-us'">{{$t('page_index.line_three.h3')}}</b>
+            <p>{{$t('page_index.line_three.p3')}}</p>
           </div>
+
         </el-carousel-item>
         <el-carousel-item>
-          <div class="medium">
-            <g-image
-              alt="Example image"
-              src="../../static/home_page/img4.png"
-              class="rotation-img"
-              height="300"
-              width="450"
-              fit="fill"
-            />
-            <div
-              class="rotation-text"
-              style="background-color: #2856ff;"
-            >
-              <h1>{{$t('page_index.line_three.h4')}}</h1>
-              <p>{{$t('page_index.line_three.p4')}}</p>
-            </div>
+
+          <g-image
+            alt="Example image"
+            src="../../static/home_page/img4.png"
+            class="rotation-img"
+            height="300"
+            width="360"
+            fit="fill"
+            style="margin-left:25px;"
+          />
+          <div
+            class="rotation-text"
+            style="background-color: #2856ff;"
+          >
+            <h1 v-show="$i18n.locale =='zh-cn'">{{$t('page_index.line_three.h4')}}</h1>
+            <b v-show="$i18n.locale == 'en-us'">{{$t('page_index.line_three.h4')}}</b>
+            <p>{{$t('page_index.line_three.p4')}}</p>
           </div>
+
         </el-carousel-item>
         <el-carousel-item>
-          <div class="medium">
-            <g-image
-              alt="Example image"
-              src="../../static/home_page/img5.png"
-              class="rotation-img"
-              height="300"
-              width="450"
-              fit="fill"
-            />
-            <div
-              class="rotation-text"
-              style="background-color: #0e0270;"
-            >
-              <h1>{{$t('page_index.line_three.h5')}}</h1>
-              <p>{{$t('page_index.line_three.p5')}}</p>
-            </div>
+
+          <g-image
+            alt="Example image"
+            src="../../static/home_page/img5.png"
+            class="rotation-img"
+            height="300"
+            width="360"
+            fit="fill"
+            style="margin-left:25px;"
+          />
+          <div
+            class="rotation-text"
+            style="background-color: #0e0270; top:298px;"
+          >
+            <h1 v-show="$i18n.locale =='zh-cn'">{{$t('page_index.line_three.h5')}}</h1>
+            <b v-show="$i18n.locale == 'en-us'">{{$t('page_index.line_three.h5')}}</b>
+            <p>{{$t('page_index.line_three.p5')}}</p>
           </div>
+
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -328,15 +338,17 @@ export default {
 }
 
 .el-carousel__item:nth-child(2n) {
-  background-color: #99a9bf;
+  /* background-color: #99a9bf; */
   width: 450px;
   margin-left: 80px;
+  padding-left: 25px;
 }
 
 .el-carousel__item:nth-child(2n + 1) {
-  background-color: #d3dce6;
+  /* background-color: #d3dce6; */
   width: 450px;
   margin-left: 80px;
+  padding-left: 25px;
 }
 .rotation {
   width: 100%;
@@ -347,14 +359,16 @@ export default {
   width: 100%;
   height: 50%;
   object-fit: cover;
+  margin-left: 25px;
 }
 .rotation-text {
-  /* width: 400px; */
-  height: 300px;
+  width: 300px;
+  /* height: 300px; */
   padding: 30px;
   color: #fff;
   top: 300px;
   position: absolute;
+  margin-left: 25px;
 }
 
 .line-four {

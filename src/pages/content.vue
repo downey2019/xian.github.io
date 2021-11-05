@@ -121,6 +121,8 @@ export default {
   display: block;
   width: 100%;
   /* max-height: 700px; */
+  height: 34vw;
+  min-height: 420.3px;
 }
 .line-two {
   font-family: PingFangSC-Medium;

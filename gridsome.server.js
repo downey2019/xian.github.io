@@ -11,6 +11,27 @@ module.exports = function (api) {
   })
 
   api.createPages(({ createPage }) => {
-    // Use the Pages API here: https://gridsome.org/docs/pages-api/
+    createPage(
+      {
+        path: '/k8s-1',
+        component: './src/pages/k8s.vue'
+      }
+    )
+  })
+  api.createPages(({ createPage }) => {
+    createPage(
+      {
+        path: '/k8s-2',
+        component: './src/pages/k8s.vue'
+      }
+    )
+  })
+  api.createPages(({ createPage }) => {
+    createPage(
+      {
+        path: '/k8s-3',
+        component: './src/pages/k8s.vue'
+      }
+    )
   })
 }

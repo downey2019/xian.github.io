@@ -7,7 +7,15 @@ module.exports = {
     home3: "Specification",
     home4: "Training",
     home5: "Contact us",
-    home6: 'Language'
+    home6: 'Language',
+    service_title_1: 'Train',
+    service_title_2: 'Consult',
+    service_title_3: 'Kubernetes',
+    service_title_4: 'Technical Support',
+    service_content_1_1: 'DevOps Train',
+    service_content_2_1: 'Kubernetes Consult',
+    service_content_3_1: 'Kubernetes implement',
+    service_content_4_1: 'Kubernetes Support'
   },
 
   page_index: {
@@ -16,16 +24,16 @@ module.exports = {
       span2: "Cloud native technology expert"
     },
     line_three: {
-      h1: 'Service-oriented',
-      p1: 'For application software R&D and operation services, self-service methods are adopted to provide continuous technical empowerment and support guarantee services, and the platform team and the railway software R&D team grow together.',
-      h2: 'Ability-based',
-      p2: 'PaaS-based railway software research and development, combined with the diversity of railway application systems and technological maturity, build and operate PaaS, and promote capacity building and system development.',
-      h3: 'Application conversion',
-      p3: 'From the research and development of successfully applied typical railway application software, gradually standardize and promote it to the research and development of other railway application software, and continue to optimize and improve.',
+      h1: 'Based on the industry',
+      p1: 'Based on the status quo and development needs of railway information technology, together with the development of application software development teams and technical capabilities, it is an independent railway PaaS platform.',
+      h2: 'Service-oriented',
+      p2: 'For application software R&D and operation services, self-service methods are adopted to provide continuous technical empowerment and support guarantee services, and the platform team and the railway software R&D team grow together.',
+      h3: 'Ability-based',
+      p3: 'PaaS-based railway software research and development, combined with the diversity of railway application systems and technological maturity, build and operate PaaS, and promote capacity building and system development.',
       h4: 'Focus on integration',
       p4: 'The PaaS service model is a one-stop self-service, lowering the threshold, seamlessly integrating with software development and operation and maintenance capabilities, and extensively integrating and applying public service capabilities in PaaS at the source.',
-      h5: 'Based on the industry',
-      p5: 'Based on the status quo and development needs of railway information technology, together with the development of application software development teams and technical capabilities, it is an independent railway PaaS platform.',
+      h5: 'Application conversion',
+      p5: 'From the research and development of successfully applied typical railway application software, gradually standardize and promote it to the research and development of other railway application software, and continue to optimize and improve.',
     },
     line_fore: {
       but: 'Learn more'
@@ -121,48 +129,48 @@ module.exports = {
       sp: 'WEEK 1',
 
       h1: 'Day 1',
-      p1: 'Course title:',
+      p1: '',
       p2: 'Project management and cloud native architecture design Agile Project management and cloud native architecture design',
-      p3: 'Course introduction:',
+      p3: '',
       p4: '1.How to track and manage the process from requirement decomposition, task assignment to development, testing, and release, as well as an overall introduction and demonstration of how each role collaborates to promote the achievement of project goals. ',
       p5: '2.The basic components of the cloud native architecture and the introduction of related middleware functions allow students to have a comprehensive understanding of application system design. ',
 
       h2: 'Day 2~3',
-      p6: 'Course title:',
+      p6: '',
       p7: ' Cloud native service development ',
-      p8: 'Course introduction:',
+      p8: '',
       p9: '1.Introduction to the development of microservices based on Sprintboot. ',
-      p10: '2.Introduction to key core middleware, authentication and authorization, file system MIO, database, interface design, developer portal (microservice platform), etc. ',
+      p10: '2.Introduction to key core middleware, authentication and authorization, file system MINIO, database, interface design, developer portal (microservice platform), etc. ',
       p11: '3. Demonstrate how to use the platform to develop through cases',
 
       h3: 'Day 4~5',
-      p12: 'Course title:',
+      p12: '',
       p13: 'Front-end development ',
-      p14: 'Course introduction:',
+      p14: '',
       p15: '1. A practical example of the front-end development framework VUE. ',
       p16: '2. Front-end template development, ElementUI componentized development method, jam stack static release, rapid front-end development, front-end testing, etc. ',
 
       sp1: 'WEEK 2',
 
       h4: 'Day 1~2',
-      p17: 'Course title:',
+      p17: '',
       p18: 'Continuous Integration/Continuous Deployment ',
-      p19: 'Course introduction:',
+      p19: '',
       p20: '1.Commonly used build scripts, continuous testing, automatic deployment of gitops dependent components, etc. ',
-      p21: '2.Continuous delivery platform, and related dependent components Jerkins, cypress, etc.',
+      p21: '2.Continuous delivery platform, and related dependent components Jenkins, cypress, etc.',
 
 
       h5: 'Day 3~4',
-      p22: 'Course title:',
+      p22: '',
       p23: 'Kubernetes container platform ',
-      p24: 'Course introduction:',
+      p24: '',
       p25: '1. Kubernetes planning, installation and deployment, operation and maintenance, and application monitoring key indicator extraction methods are introduced. ',
       p26: '2. Introduction to the use of tools such as prometheus collection data + fluentd log + graphana graphical display hatched by CNCF Cloud Native Foundation.',
 
       h6: 'Day 5',
-      p27: 'Course title:',
+      p27: '',
       p28: 'Railway Common Information Integration Platform',
-      p29: 'Course introduction:',
+      p29: '',
       p30: '1.Introduction to the unified authentication platform, data service platform, and case explanations of how to wear the security platform. ',
       p31: '2.Two-week course series summarizing exams and issuing certificates.',
 
@@ -178,6 +186,62 @@ module.exports = {
       p1: '3rd Floor, Building 20, Tieyongfang, Taiyi Road, Beilin District, Xian',
       p2: 'qi.yang@rails.cn',
       p3: 'Working hours: 8:00-18:00'
+    }
+  },
+  k8s: {
+    consult: {
+      header: "Kubernetes Consult",
+      title_1: "Consulting Service",
+      content_1: {
+        content_1_1: "Consulting services throughout the life cycle of enterprise IT applications.",
+        content_1_2: "Fully meet the needs of customer microservice architecture transformation, Devops implementation, agile development and automatic operation and maintenance, and ensure business innovation."
+      },
+      title_2: "Kubernetes application",
+      content_2: {
+        content_2_1: "Help customers encounter various problems during the deployment and use of kubernetes, especially the challenges of performance, scalability, high availability and security when running in the production environment."
+      },
+      title_3: "Security And Performance Consultation",
+      content_3: {
+        content_3_1: "Provide optimization solutions for problems caused by Docker and Kubernetes."
+      },
+      title_4: "Microservice Consulting",
+      content_4: {
+        content_4_1: "Help customers build a micro service architecture based on Kubernetes, provide architecture consulting and related tool chains for enterprise customers, and successfully complete the transformation from traditional architecture to microservice architecture."
+      }
+    },
+    implement: {
+      header: "Kubernetes Implementation",
+      title_1: "Full Scenario Coverage Of Kubernetes Implementation Service",
+      content_1: {
+        content_1_1: "Provide comprehensive Kubernetes implementation, operation and maintenance services, provide different levels of support according to customers' needs, and provide one-stop convenient services."
+      },
+      title_2: "Kubernetes Implementation Services",
+      content_2: {
+        content_2_1: "Deploy Docker and K8s.",
+        content_2_2: "Update Docker and K8s.",
+        content_2_3: "Update Kubernetes certificate.",
+        content_2_4: "Kubernetes cluster configuration.",
+        content_2_5: "Kubernetes cluster capacity expansion.",
+        content_2_6: "Vulnerability repair.",
+        content_2_7: "Regular cluster patrol inspection.",
+        content_2_8: "Conduct regular patrol inspection on the customer's environment and give adjustment opinions according to the current state to ensure the safe and healthy operation of K8s.",
+        content_2_9: "When serious security vulnerabilities are found in Docker and Kubernetes, notify the customer at the first time.",
+        content_2_10: "Provide temporary solutions to customers and track final repair solutions."
+      }
+    },
+    support: {
+      header: "Kubernetes Technical Support",
+      title_1: "One Stop All-round Technical Support",
+      content_1: {
+        content_1_1: "Help enterprises reduce business risks and escort digital transformation while applying K8s to accelerate application iteration and improve efficiency."
+      },
+      title_2: "Technical Support Services",
+      content_2: {
+        content_2_1: "Technical support, experts check and judge the problems and answer the customers.",
+        content_2_2: "Troubleshooting, troubleshooting according to customer requirements, and issue fault report.",
+        content_2_3: "Customer business integration technical support, give troubleshooting and repair suggestions for other problems, and assist in tracing to the source.",
+        content_2_4: "Kubernetes based technical support for operation and maintenance platform covers from scheme design, deployment and upgrading to daily operation and maintenance. Each step provides landing expertise and experience to help enterprise customers build an application-centered automatic operation and maintenance platform, dynamically respond to business needs, reduce operation and maintenance costs and focus on core business."
+      }
     }
   }
 

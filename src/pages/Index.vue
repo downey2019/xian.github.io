@@ -8,11 +8,13 @@
 <template>
   <Layout :pageIndex="1">
     <div class="line-one">
-      <g-image
-        alt="Example image"
-        src="../../static/home_page/banner.png"
-        class="img-one"
-      />
+      <div class="line-one-inner">
+        <g-image
+          alt="Example image"
+          src="../../static/home_page/banner.png"
+          class="img-one"
+        />
+      </div>
     </div>
     <div class="line-two">
       <g-image
@@ -32,15 +34,14 @@
         type="card"
         height="600px"
         width="1400px"
+        class="el-carousel"
       >
         <el-carousel-item>
           <div class="rotation">
             <g-image
               alt="Example image"
               src="../../static/home_page/img1.png"
-              class="rotation-img"
-              height="300"
-              width="360"
+              class="rotation-img three-image"
               fit="fill"
               style="margin-left:25px;"
             />
@@ -55,13 +56,10 @@
           </div>
         </el-carousel-item>
         <el-carousel-item>
-
           <g-image
             alt="Example image"
             src="../../static/home_page/img2.png"
-            height="300"
-            width="360"
-            class="rotation-img"
+            class="rotation-img three-image"
             fit="fill"
             style="margin-left:25px;"
           />
@@ -80,9 +78,7 @@
           <g-image
             alt="Example image"
             src="../../static/home_page/img3.png"
-            class="rotation-img"
-            height="300"
-            width="360"
+            class="rotation-img  three-image"
             fit="fill"
             style="margin-left:25px;"
           />
@@ -101,9 +97,7 @@
           <g-image
             alt="Example image"
             src="../../static/home_page/img4.png"
-            class="rotation-img"
-            height="300"
-            width="360"
+            class="rotation-img three-image"
             fit="fill"
             style="margin-left:25px;"
           />
@@ -122,9 +116,7 @@
           <g-image
             alt="Example image"
             src="../../static/home_page/img5.png"
-            class="rotation-img"
-            height="300"
-            width="360"
+            class="rotation-img three-image"
             fit="fill"
             style="margin-left:25px;"
           />
@@ -152,9 +144,17 @@
           style="background-color: #e9a400; border:0px; display: block; margin:0 auto; margin-top:20px;margin-bottom:20px;"
         >{{$t('page_index.line_fore.but')}}</el-button>
         <g-image
+          v-if="learnMoreFlag"
           alt="Example image"
           src="../../static/home_page/framework.png"
           width="955"
+        />
+        <g-image
+          v-else
+          alt="Example image"
+          src="../../static/home_page/learn-more2.jpg"
+          width="955"
+          class="learn-more-en-pic"
         />
       </div>
     </div>
@@ -279,6 +279,39 @@ export default {
   metaInfo: {
     title: '首页'
   },
+  data () {
+    return {
+      findLang: this.$route.path.split('/')[1],
+      learnMoreFlag: true
+    }
+  },
+  created () {
+    // const lang = this.$route.path.split('/')[1]
+    // if (lang === 'en-us') {
+    //   this.learnMoreFlag = false
+    //   console.log(this.learnMoreFlag)
+    // } else if (lang === 'zh-cn') {
+    //   this.learnMoreFlag = true
+    //   console.log(this.learnMoreFlag)
+    // }
+  },
+  beforeRouteEnter (to, from, next) {
+    console.log(to)
+    // if (to.path === '/en-us/') {
+    //   this.learnMoreFlag = false
+    // } else if (to.path === '/zh-cn/') {
+    //   this.learnMoreFlag = true
+    // }
+    next(vm => {
+      if (to.path === '/en-us/') {
+        vm.learnMoreFlag = false
+        console.log(vm.learnMoreFlag)
+      } else if (to.path === '/zh-cn/') {
+        vm.learnMoreFlag = true
+        console.log(vm.learnMoreFlag)
+      }
+    })
+  },
   methods: {
     gotoProsuct () {
       this.$router.push(this.$tp('/product/'))
@@ -287,14 +320,15 @@ export default {
 }
 </script>
 
-<style scoped>
-.line-one {
-  /* max-height: 700px; */
+<style lang="less" scoped>
+.line-one-inner {
+  width: 100%;
 }
 .img-one {
   display: block;
   width: 100%;
-  /* max-height: 700px; */
+  height: 34vw;
+  min-height: 420.3px;
 }
 
 .line-two {
@@ -303,32 +337,38 @@ export default {
 }
 .img-two {
   width: 50%;
+  min-height: 216px;
+  height: 16.4vw;
   display: block;
 }
 .text-two {
+  box-sizing: border-box;
+  padding-left: 7.56vw;
   width: 50%;
+  min-height: 216px;
+  height: 16.4vw;
   font-family: PingFangSC-Semibold;
-  font-size: 40px;
+  font-size: 2vw;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   color: #fff;
 }
 .two-center {
-  width: 650px;
+  // width: 650px;
   text-align: left;
 }
 
 .line-three {
+  box-sizing: border-box;
   width: 1200px;
-  height: 650px;
+  height: 700px;
   padding: 50px 0 50px 0;
   /* padding-left: 10%;
   padding-right: 10%; */
   max-width: 1400px;
   margin: 0 auto;
 }
-
 .el-carousel__item h3 {
   color: #475669;
   font-size: 14px;
@@ -355,26 +395,37 @@ export default {
   height: 100%;
 }
 
-.rotation-Img {
+.rotation-img.three-image {
   width: 100%;
-  height: 50%;
+  display: block !important;
+  height: 280px !important;
+  width: 360px !important;
   object-fit: cover;
   margin-left: 25px;
 }
 .rotation-text {
   width: 300px;
-  /* height: 300px; */
+  height: 180px;
   padding: 30px;
   color: #fff;
-  top: 300px;
-  position: absolute;
   margin-left: 25px;
 }
-
+.rotation-text h1 {
+  font-weight: normal;
+}
+.rotation-text b {
+  font-size: 18px;
+}
+.rotation-text p {
+  font-size: 14px;
+}
 .line-four {
   position: relative;
   width: 100%;
   height: 900px;
+  .learn-more-en-pic {
+    width: 955px;
+  }
 }
 .line-four-bg {
   width: 100%;
@@ -456,6 +507,7 @@ export default {
 .line-six {
   width: 100%;
   align-items: center;
+  // padding-bottom: 300px;
 }
 .line-six p {
   text-align: center;

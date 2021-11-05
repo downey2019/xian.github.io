@@ -186,12 +186,20 @@ export default {
   metaInfo: {
     title: '培训'
   },
+  data () {
+    return {
+    }
+  }
 }
 </script>
 
 <style scoped>
-.line-one {
-  /* max-height: 700px; */
+
+.line-one .img-one {
+  display: block;
+  width: 100%;
+  height: 34vw;
+  min-height: 420.3px;
 }
 .img-one {
   display: block;
@@ -220,11 +228,12 @@ export default {
 }
 
 .line-three {
+  padding-bottom: 50px;
   font-family: PingFangSC-Medium;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 .line-three h2 {
   font-size: 40px;

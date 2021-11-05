@@ -78,13 +78,15 @@
             alt="Example image"
             src="../../static/product_page/advantage1.png"
             height="300"
+            width="1200"
             fit="fill"
           />
           <transition name="advantageShow">
             <g-image
               alt="Example image"
               src="../../static/product_page/advantage1_hover.png"
-              height="300"
+              height="290"
+              width="855"
               fit="fill"
               class="img-hover1"
               v-show="img1Hover"
@@ -104,6 +106,7 @@
             alt="Example image"
             src="../../static/product_page/advantage2.png"
             height="300"
+            width="1200"
             fit="fill"
           />
           <transition name="advantageShow">
@@ -111,6 +114,7 @@
               alt="Example image"
               src="../../static/product_page/advantage2_hover.png"
               height="300"
+              width="856"
               fit="fill"
               class="img-hover2"
               v-show="img2Hover"
@@ -128,17 +132,20 @@
         v-model="activeName"
         @tab-click="handleClick"
         style="width: 1000px; margin-top:50px;"
+        :stretch="true"
       >
         <el-tab-pane name="cooperation">
           <template slot="label">
             <div class="line-five-label">
-              <g-image
-                alt="Example image"
-                src="../../static/product_page/cooperation.png"
-                width="42"
-                height="35"
-                fit="fill"
-              />
+              <div class="line-five-iconbox">
+                <g-image
+                  alt="Example image"
+                  src="../../static/product_page/cooperation.png"
+                  width="37"
+                  height="35"
+                  fit="fill"
+                />
+              </div>
               <span> {{$t('page_product.line_five.sp1')}}</span>
             </div>
           </template>
@@ -183,13 +190,17 @@
         <el-tab-pane name="container">
           <template slot="label">
             <div class="line-five-label">
-              <g-image
-                alt="Example image"
-                src="../../static/product_page/container.png"
-                width="42"
-                height="35"
-                fit="fill"
-              /><span> {{$t('page_product.line_five.sp2')}}</span>
+              <div class="line-five-iconbox">
+                <g-image
+                  alt="Example image"
+                  src="../../static/product_page/container.png"
+                  width="37"
+                  height="35"
+                  fit="fill"
+                  class="cooperation-icon"
+                />
+              </div>
+              <span> {{$t('page_product.line_five.sp2')}}</span>
             </div>
           </template>
           <div class="line-five-content">
@@ -233,13 +244,14 @@
         <el-tab-pane name="development">
           <template slot="label">
             <div class="line-five-label">
-              <g-image
-                alt="Example image"
-                src="../../static/product_page/development.png"
-                width="42"
-                height="35"
-                fit="fill"
-              /><span> {{$t('page_product.line_five.sp3')}}</span>
+              <div class="line-five-iconbox">
+                <g-image
+                  alt="Example image"
+                  src="../../static/product_page/development.png"
+                  fit="fill"
+                />
+              </div>
+              <span> {{$t('page_product.line_five.sp3')}}</span>
             </div>
           </template>
           <div class="line-five-content">
@@ -291,13 +303,14 @@
         </el-tab-pane>
         <el-tab-pane name="pay"> <template slot="label">
             <div class="line-five-label">
-              <g-image
-                alt="Example image"
-                src="../../static/product_page/pay.png"
-                width="42"
-                height="35"
-                fit="fill"
-              /><span> {{$t('page_product.line_five.sp4')}}</span>
+              <div class="line-five-iconbox">
+                <g-image
+                  alt="Example image"
+                  src="../../static/product_page/pay.png"
+                  filt="fill"
+                />
+              </div>
+              <span> {{$t('page_product.line_five.sp4')}}</span>
             </div>
           </template>
           <div class="line-five-content">
@@ -362,11 +375,17 @@ export default {
 }
 </script>
 
-<style scoped >
+<style lang="less" scoped>
 .line-one {
   width: 100%;
   /* height: 700px; */
   /* max-height: 700px; */
+}
+.line-one .img-one {
+  display: block;
+  width: 100%;
+  height: 34vw;
+  min-height: 420.3px;
 }
 .img-one {
   display: block;
@@ -476,6 +495,7 @@ export default {
 }
 .line-five {
   margin-top: 100px;
+  padding-bottom: 50px;
   font-family: PingFangSC-Medium;
   color: #333;
   font-weight: 500;
@@ -488,19 +508,28 @@ export default {
 }
 .line-five-label {
   width: 210px;
-  height: 60px;
+  /* height: 60px; */
   color: #333;
   font-weight: 500;
   justify-content: center;
   flex-direction: column;
   display: flex;
   align-items: center;
+  span {
+    line-height: 32px;
+  }
+  .line-five-iconbox {
+    width: 42px;
+    height: 37px;
+  }
 }
->>> .el-tabs__nav {
+  /deep/ .el-tabs__nav {
   height: 80px !important;
+  width: 1000px !important;
 }
 .line-five-content {
-  height: 800px;
+  box-sizing: border-box;
+  height: 770px;
   width: 100%;
   /* justify-content: center; */
   padding-top: 50px;

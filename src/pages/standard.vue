@@ -125,6 +125,12 @@ export default {
 .line-one {
   /* max-height: 700px; */
 }
+.line-one .img-one {
+  display: block;
+  width: 100%;
+  height: 34vw;
+  min-height: 420.3px;
+}
 .img-one {
   display: block;
   width: 100%;
@@ -144,6 +150,9 @@ export default {
   text-align: center;
   margin-bottom: 50px;
   font-weight: 500;
+}
+.line-two p {
+  font-size: 16px !important;
 }
 .line-two-problems {
   display: flex;
@@ -183,11 +192,12 @@ export default {
 }
 
 .line-four {
+  /* margin-bottom: 300px; */
   font-family: PingFangSC-Medium;
   margin: 0 auto;
   margin-top: 20px;
   padding: 50px;
-  margin-bottom: 20px;
+  padding-bottom: 50px;
   max-width: 1600px;
   min-width: 1100px;
 }

@@ -2,7 +2,7 @@
  * @Author: zf 
  * @Date: 2021-10-21 16:35:40 
  * @Last Modified by: zf
- * @Last Modified time: 2021-10-22 10:16:34
+ * @Last Modified time: 2021-11-05 09:39:23
  * 首页
  */
 <template>
@@ -135,8 +135,8 @@
     <div class="line-four">
       <div class="line-four-bg"></div>
       <div class="line-four-center">
-        <h1></h1>
-        <p></p>
+        <h1>{{$t('page_index.line_fore.h1')}}</h1>
+        <p>{{$t('page_index.line_fore.p')}}</p>
         <el-button
           type="primary"
           class="but"
@@ -148,12 +148,14 @@
           alt="Example image"
           src="../../static/home_page/framework.png"
           width="955"
+          height="650"
         />
         <g-image
           v-else
           alt="Example image"
           src="../../static/home_page/learn-more2.jpg"
           width="955"
+          height="650"
           class="learn-more-en-pic"
         />
       </div>
@@ -422,14 +424,15 @@ export default {
 .line-four {
   position: relative;
   width: 100%;
-  height: 900px;
+  height: 1000px;
   .learn-more-en-pic {
     width: 955px;
+    height: 650px;
   }
 }
 .line-four-bg {
   width: 100%;
-  height: 900px;
+  height: 1000px;
   opacity: 0.2;
   background-image: url("../../static/home_page/bg_img.jpg");
   background-size: cover;

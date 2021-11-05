@@ -5,7 +5,7 @@ module.exports = {
     home1: "Home",
     home2: "Product",
     home3: "Specification",
-    home4: "Training",
+    home4: "Service",
     home5: "Contact us",
     home6: 'Language',
     service_title_1: 'Train',
@@ -36,7 +36,9 @@ module.exports = {
       p5: 'From the research and development of successfully applied typical railway application software, gradually standardize and promote it to the research and development of other railway application software, and continue to optimize and improve.',
     },
     line_fore: {
-      but: 'Learn more'
+      but: 'Learn more',
+      h1: 'Understand the railway PaaS platform',
+      p:'The development and testing PAAS cloud platform provides developers with R & D tools, products and services to ensure the quality of software development, which is simpler and more efficient'
     },
     line_five: {
       p1: 'Industry application scenarios',
@@ -140,7 +142,7 @@ module.exports = {
       p7: ' Cloud native service development ',
       p8: '',
       p9: '1.Introduction to the development of microservices based on Sprintboot. ',
-      p10: '2.Introduction to key core middleware, authentication and authorization, file system MINIO, database, interface design, developer portal (microservice platform), etc. ',
+      p10: '2.Introduction to key core middleware, authentication and authorization, file system MinIO, database, interface design, developer portal (microservice platform), etc. ',
       p11: '3. Demonstrate how to use the platform to develop through cases',
 
       h3: 'Day 4~5',

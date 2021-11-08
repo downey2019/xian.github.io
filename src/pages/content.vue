@@ -1,8 +1,8 @@
 /*
  * @Author: zf 
  * @Date: 2021-10-21 16:38:35 
- * @Last Modified by:   zf 
- * @Last Modified time: 2021-10-21 16:38:35 
+ * @Last Modified by: zf
+ * @Last Modified time: 2021-11-05 14:53:45
  * 联系我们页面
  */
 <template>
@@ -151,7 +151,7 @@ export default {
   width: 90%;
   margin: 0 auto;
   display: flex;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 .line-three-left {
   width: 300px;

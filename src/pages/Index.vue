@@ -2,7 +2,7 @@
  * @Author: zf 
  * @Date: 2021-10-21 16:35:40 
  * @Last Modified by: zf
- * @Last Modified time: 2021-11-05 09:39:23
+ * @Last Modified time: 2021-11-05 14:49:46
  * 首页
  */
 <template>
@@ -148,14 +148,12 @@
           alt="Example image"
           src="../../static/home_page/framework.png"
           width="955"
-          height="650"
         />
         <g-image
           v-else
           alt="Example image"
           src="../../static/home_page/learn-more2.jpg"
           width="955"
-          height="650"
           class="learn-more-en-pic"
         />
       </div>

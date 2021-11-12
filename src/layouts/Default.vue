@@ -152,7 +152,6 @@ export default {
   },
   created() {
     const routePath = this.$route.path.split('/')[2]
-    console.log(routePath)
     if (routePath === 'train') {
       this.trainIndex = 0
     } else if (routePath === 'k8s-1') {
@@ -164,12 +163,7 @@ export default {
     } else {
       this.trainIndex = null
     }
-    console.log(this.trainIndex)
   },
-  // beforeRouteEnter (to, from, next) {
-  //   console.log(to.path)
-  //   next()
-  // },
   methods: {
     gotoLogo () {
       this.$router.push('/logo/')
@@ -278,7 +272,8 @@ body {
 
 .h_title {
   color: #fff;
-  font-family: HiraginoSansGB-W6;
+  // font-family: HiraginoSansGB-W6;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 24px;
 }
 
@@ -296,7 +291,8 @@ body {
   /* margin-left: 15px;
   margin-right: 15px; */
   color: #fff;
-  font-family: PingFangSC-Medium;
+  // font-family: PingFangSC-Medium;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   text-decoration: none;
 }

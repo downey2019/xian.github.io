@@ -176,6 +176,125 @@ module.exports = {
       p30: '1.Introduction to the unified authentication platform, data service platform, and case explanations of how to wear the security platform. ',
       p31: '2.Two-week course series summarizing exams and issuing certificates.',
 
+    },
+    train_detail: {
+      findDetail: 'View details',
+      detail_w1_1: {
+        title: 'Project Management And Cloud Native Architecture Design',
+        t1: 'Overall introduction and example demonstration of how to track and manage the process from requirements decomposition and task allocation to development, testing and on-line, as well as how each role can effectively cooperate to promote the achievement of project objectives',
+        c1: {
+          c_1: 'The basic methods of traditional project management and agile project management',
+          c_2: 'Plan management, requirements management, task management, defect management, iteration management, Kanban, test tracking, knowledge base introduction',
+          c_3: 'Project management practice cases, from demand decomposition and task allocation to the whole process management of development, testing and on-line'
+        },
+        t2: 'The basic composition of cloud native architecture and related middleware functions are introduced to give students a comprehensive understanding of application system design',
+        c2: {
+          c_1: 'Why cloud native architecture',
+          c_2: 'Definition of cloud native architecture',
+          c_3: 'Major cloud native technologies',
+          c_4: 'Cloud native architecture practice case'
+        }
+      },
+      detail_w1_2: {
+        title: 'Cloud Native Service Development',
+        t1: 'Introduction to microservice development based on Spring Boot',
+        t1_1: 'Spring Boot and cache Redis',
+        t1_2: 'Spring Boot and message RabbitMQ',
+        t1_3: 'Spring Boot and retrieval  ElasticSearch',
+        c1: {
+          c1_1: 'Redis installation (Docker mode) and Spring Boot integration example demonstration',
+          c1_2: 'Explanation of message service and message queue knowledge points',
+          c1_3: 'RabbitMQ installation (Docker mode) and Spring Boot integration example demonstration',
+          c1_4: 'Search engine product introduction and concept explanation',
+          c1_5: 'Example demonstration of integrating Elasticsearch installation (Docker mode) with Spring Boot'
+        },
+        t2: 'Introduction to key core middleware, authentication and authorization, file system MINIO, database, interface design, Developer Platform (micro service platform)',
+        c2: {
+          c2_1: 'Explanation of authentication and authorization module',
+          c2_2: 'MINIO explanation of object storage concept',
+          c2_3: 'Database, interface design, Developer Platform (micro service platform)'
+        },
+        t3: 'How to use the platform to develop example demonstration',
+        c3: {
+          c3_1: 'How to use Devops platform to develop cloud native services'
+        }
+      },
+      detail_w1_3: {
+        title: 'Front-end Development',
+        t1: 'Front end development framework Vue practice example',
+        c1: {
+          c1_1: 'Introduction to Vue.js (including features and syntax)',
+          c1_2: 'Project sample code demonstration and running demonstration',
+          c1_3: 'Demonstration of engineering project construction',
+          c1_4: 'Hands on practice webpack and storybook'
+        },
+        t2: 'Front end template development, ElementUI component development method, Jamstack static release, rapid front-end development, front-end testing, etc',
+        c2: {
+          c2_1: 'Introduction to ElementUI component library',
+          c2_2: 'Vue combined with the actual development exercise of ElementUI component library',
+          c2_3: 'Introduction to rapid micro front end development',
+          c2_4: 'Micro front end solution operation exercise',
+          c2_5: 'Front end test and commissioning',
+        }
+      },
+      detail_w2_1: {
+        title: 'Continuous Integration / Continuous Deployment',
+        t1: 'Common build scripts, continuous testing, automatic deployment of GitOps related dependent components, etc',
+        c1: {
+          c1_1: 'Gitlab configuration',
+          c1_2: 'Jenkins configuration',
+          c1_3: 'Sonarqube configuration',
+          c1_4: 'ArgoCD deployment and pipeline whole process demonstration'
+        },
+        t2: 'Continuous delivery platform and related dependent components Jenkins, cypress, etc',
+        c2: {
+          c2_1: 'Introduction to CI / CD',
+          c2_2: 'CI / CD technology stack',
+          c2_3: 'Explain the continuous delivery platform and build a continuous integration pipeline'
+        }
+      },
+      detail_w2_2: {
+        title: 'Kubernetes Container Platform',
+        t1: 'Introduction to Kubernetes planning, installation, deployment, operation and maintenance, and extraction methods of key indicators of application monitoring',
+        t1_1: 'Kubernetes Foundation',
+        t1_2: 'Kubernetes Deployment',
+        t1_3: 'Kubernetes Example: practical demonstration',
+        t1_4: 'Kubernetes Advanced',
+        t1_5: 'Introduction to Kubernetes Operator',
+        c1: {
+          c1_1: 'Docker introduction',
+          c1_2: 'Relationship between Docker and Kubernetes',
+          c1_3: 'The value of Kubernetes',
+          c1_4: 'Basic concepts and core components of Kubernetes',
+          c1_5: 'Kubernetes local installation',
+          c1_6: 'Explanation of Kubernetes daily processing instructions',
+          c1_7: 'Pod status and lifecycle management',
+          c1_8: 'Kubernetes cluster resource management',
+          c1_9: 'Kubernetes controller, storage, resource scheduling, service discovery'
+        },
+        t2: 'Kubernetes controller, storage, resource scheduling, service discovery',
+        c2: {
+          c2_1: 'Prometheus quick start',
+          c2_2: 'Fluentd quick start',
+          c2_3: 'Visual explanation of Grafana',
+          c2_4: 'Introduction to other tools'
+        }
+      },
+      detail_w2_3: {
+        title: 'Railway Application System Support Platform',
+        t1: 'ntroduction to unified authentication platform and data service platform, and case explanation of how to wear security platform',
+        c1: {
+          c1_1: 'Unified authentication platform example demonstration',
+          c1_2: 'Introduction to data service platform',
+          c1_3: 'Case explanation of how to wear safety platform'
+        },
+        t2: 'Two week course series summary examination and certificate issuance',
+        c2: {
+          c2_1: 'Course review series summary',
+          c2_2: 'Course objective assessment',
+          c2_3: 'Graduation and certificate issuance'
+        }
+      }
     }
   },
 

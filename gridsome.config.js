@@ -7,7 +7,9 @@
 module.exports = {
   siteName: '铁科经纬（西安）信息科技有限公司',
   // siteUrl: 'http://localhost:8080/',
-  pathPrefix: '/xian',
+  // pathPrefix: '/xian',
+  siteUrl: 'https://downey2019.github.io',
+  pathPrefix: '/xian.github.io',
   plugins: [
     {
       use: "@gridsome/source-filesystem",
